@@ -121,6 +121,10 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 
 ***Also with this installed, Alt + F4 finally works now, over a decade later. However it doesn't work in the character selection screen for now. But it works pretty much everywhere else.***
 
+# Disabling UI elements
+
+You can follow lazer's comprehensive guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
+
 # Credits, Links and Special Thanks
 
 ### Massive thanks to the following:
