@@ -33,7 +33,7 @@ Example correct Target field path:
 
 # List of all features
 ### Audio
-+ Ambient Sounds - Removes a large majority of ambient sounds which are not needed for gameplay purposes.
++ Ambient Sounds - Removes a large majority of ambient sounds which are not needed for gameplay purposes, including music coming from cars and Joker Ammo Vending Machine voice lines.
 + Dialogue - Removes all speech and screams from your character and other NPCs, including contacts speech.
 + RTW Vegas Sound - Replaces the Patriot Vegas G20 and 4x4 sounds with the old [RTW Vegas sounds](https://youtu.be/tAJi1-57qLU?t=79) and leaves all other sounds vanilla. Bishada sounds not included.
 
