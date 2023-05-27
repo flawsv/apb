@@ -88,6 +88,8 @@ Changes the chat channels from whole words to abbreviations. Works with any loca
 # Disable Texture Streaming (FPS Boost)
 In simple terms this disables the game's ability to smoothly transition between LOD states as it can cause slowdowns, increasing FPS on most systems. However, this can only be used on systems with at least 16GB RAM, otherwise it will cause game crashing.
 
+Comes in two variants as it edits the same file as `Notifications`. Combined with it and without it. ***Only pick 1 at a time!***
+
 ***Do NOT use this with `FPS Unlock` as it edits the same file and this will unlock your FPS to infinite anyway, as well as set Smooth Frame Rate to 128fps when enabled in the in-game video settings.***
 
 FPS gained may vary from system to system. This can also be coupled with enabling Double Buffering from the in-game Video settings -> Advanced for even higher FPS but it can add input lag to your game. Input lag added from Double Buffering varies from system to system and tolerance for it varies from person to person so you can try it and decide for yourself.
