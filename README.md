@@ -123,7 +123,7 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 
 # Disabling UI elements
 
-You can follow lazer's comprehensive guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
+You can follow lazer's guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
 
 # Credits, Links and Special Thanks
 
