@@ -135,6 +135,7 @@ You can follow lazer's guide to disabling UI elements [here](https://github.com/
 + Kyouki - Ambient Sounds, General assistance
 + ApollyoNite aka Ryderizm - RTW Vegas Sounds
 + jmilos - Texture Streaming, Keybinds
++ Leefekyn - Localization (killfeed stun icon)
 + Tobii & Dopefish - For placing some of the foundations for modding APB many years ago, before leaving for greener pastures. ([Tobii's APB repository, mostly outdated now.](https://apb.zone/))
 
 You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227). My personal discord tag is Flaws#0001 if you have any questions that were not answered here or if you wish to report any issues.
