@@ -1,7 +1,7 @@
 # Preface
 These modded files are all approved by Little Orbit and cannot and will not get your account suspended as of the time of writing this. If that ever changes this page, and the config itself, will be updated to reflect that. However, keep in mind that I take no responsibility for any harm caused to your account, your game or your software/hardware as a result of using these files. This config is still on a 'use at your own risk' basis. ***Be warned.***
 
-Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on Discord (flaws).
+Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on Discord (`flaws`).
 
 # Basics
 Go into the `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. Next you will need to `right click` -> `Properties` on the newly created shortcut and input the launch arugments you wish to use into the `Target` field.
@@ -38,6 +38,7 @@ Example correct Target field path:
 + RTW Vegas Sound - Replaces the Patriot Vegas G20 and 4x4 sounds with the old [RTW Vegas sounds](https://youtu.be/tAJi1-57qLU?t=79) and leaves all other sounds vanilla. Bishada sounds not included.
 
 ### Features
++ Stutter Fix - Removal of APB's Garbage Collection 60 seconds timer. Please read further below on how to use this.
 + Disable Texture Streaming (FPS Boost)* - Free FPS boost on most systems without any visual differences. Please read further below on how to use this.
 + FPS Unlock - Allows you to either increase the game's FPS cap or unlock it to infinity. Smooth Frame Rate is also changed to 128fps when enabled in-game in each of the presets. ***Ignore if using Disable Texture Streaming (FPS Boost)***
 + Keybinds - Adds several new bindable keybinds in the in-game controls menu that you can change on the fly including auto sprint, hold crouch, abandon mission, etc. More details below.
@@ -88,8 +89,6 @@ Changes the chat channels from whole words to abbreviations. Works with any loca
 # Disable Texture Streaming (FPS Boost)
 In simple terms this disables the game's ability to smoothly transition between LOD states as it can cause slowdowns, increasing FPS on most systems. However, this can only be used on systems with at least 16GB RAM, otherwise it will cause game crashing.
 
-Comes in two variants as it edits the same file as `Notifications`. Combined with it and without it. ***Only pick 1 at a time!***
-
 ***Do NOT use this with `FPS Unlock` as it edits the same file and this will unlock your FPS to infinite anyway, as well as set Smooth Frame Rate to 128fps when enabled in the in-game video settings.***
 
 FPS gained may vary from system to system. This can also be coupled with enabling Double Buffering from the in-game Video settings -> Advanced for even higher FPS but it can add input lag to your game. Input lag added from Double Buffering varies from system to system and tolerance for it varies from person to person so you can try it and decide for yourself.
@@ -125,19 +124,36 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 
 You can follow lazer's guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
 
+# ***[EXPERIMENTAL]*** Stutters Fix / Removal of Unreal Engine's Garbage Collection (GC) timer
+### **[16GB+ RAM ONLY]**
+
+In simplest terms this config by Kyouki should remove any stutters that occur in-game while you're playing missions or Fight Club caused by the game itself and should improve the overall performance of APB. Stutters in APB are caused by something called "Garbage Collection" (GC) which is a client side Unreal Engine system that APB relies on to not run out of memory and crash. This is normally on a 60 seconds timer and whenever it occurs it makes the game freeze/stutter. The stutter severity largely depends on the hardware the game is running on, particularly on CPU and hard drive speed. This is most often noticed whenever it occurs in fights, getting players killed. However, in recent times, APB devs have added an extra GC clear to occur on the respawn screen whenever you die which means that we can now afford to turn off the one that runs on a 60 seconds timer and play APB without it crashing within 20-30 minutes of gameplay.
+
+### ***There is a downside to using this and that is the fact that, at least for now, designer kiosks (wardrobe, persona, etc) in Social do NOT work with this installed as they will load infinitely and softlock the game! This is intended for gameplay ONLY (missions/fight club), at least for now.***
+
+The file also does other things such as disable texture streaming for a free FPS boost on almost any machine and several other misc back-end value adjustments to improve performance. This file does NOT affect the game visually and you will not see ANY visual difference so it can be used with any graphics including vanilla.
+
+Please keep in mind that this file is EXPERIMENTAL as we are still testing it and while it does seem to work well for 95%+ of users so far, we may introduce adjustments or improvements in the future.
+
+This file includes "Smooth Frame Rate" being set to 128fps in case you ever need to toggle it while in-game, to prevent character sliding.
+
+### IMPORTANT
+***Do **NOT** use this with "FPS Unlock" or "Disable Texture Streaming" files! This cannot be used in conjunction with those two!***
+
 # Credits, Links and Special Thanks
 
 ### Massive thanks to the following:
++ Secrets and the rest of the APB dev team who actively work with us to improve the game both on vanilla level as well as on configs level.
 + lazer - Audio, Graphics optimizations, Engine Fonts, Localization, Faster UI/White Mission Timer, Texture Streaming, Keybinds
 + rooq - Engine Fonts, Localization, General assistance
 + Esurient - Engine Fonts, Localization, Faster UI/White Mission Timer
 + mewpri - Keybinds
-+ Kyouki - Ambient Sounds, General assistance
++ Kyouki - Stutter Fix, Ambient Sounds, General assistance
 + ApollyoNite aka Ryderizm - RTW Vegas Sounds
 + jmilos - Texture Streaming, Keybinds
 + Leefekyn - Localization (killfeed stun icon)
 + Tobii & Dopefish - For placing some of the foundations for modding APB many years ago, before leaving for greener pastures. ([Tobii's APB repository, mostly outdated now.](https://apb.zone/))
 
-You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227). My personal discord tag is Flaws#0001 if you have any questions that were not answered here or if you wish to report any issues.
+You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227). My personal discord is `flaws` if you have any questions that were not answered here, if you wish to report any issues or make suggestions.
 
 You can also find lazer's config on his [GitHub Page](https://github.com/lvzxr/apb-reloaded).
