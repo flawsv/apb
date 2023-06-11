@@ -1,3 +1,10 @@
+## 11.06.2023
+
+- Added "Stutter Fix" to Features. This is an experimental config by Kyouki so please read the readme before using this!
+
+- Added "Mission Stages only" to Localization which is a small addon for those who want to keep the game's vanilla localization but want the mission stages info in the description box.
+
+
 ## 27.05.2023 - Github Update - v1.0
 
 - Migrated to Github and as such changed the entire structure of everything.
