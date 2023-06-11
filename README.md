@@ -84,6 +84,10 @@ Example correct Target field path:
 ### Optional addon: Shortened Chat Channels 
 Changes the chat channels from whole words to abbreviations. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set. [Preview](https://imgur.com/a/KIrj2KN).
 
+### Optional Vanilla addon: Mission Stages only
+This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants. Simply only copy this and follow the rest of the steps for the APB.exe shortcut creation like you would with the full localization.
+
+
 ***You are free to edit this localization as you desire for personal use, however if you wish to build your own and use mine as a base and distribute it publicly, please credit me for making the base for it.***
 
 # Disable Texture Streaming (FPS Boost)
