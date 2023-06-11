@@ -4,6 +4,9 @@
 
 - Added "Mission Stages only" to Localization which is a small addon for those who want to keep the game's vanilla localization but want the mission stages info in the description box.
 
+- If using "Disable Texture Streaming" separately, you may now install "Notifications" alongside it like you would normally as it no longer relies on changes within the same file as the notifications to function properly.
+
+
 
 ## 27.05.2023 - Github Update - v1.0
 
