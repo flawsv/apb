@@ -1,3 +1,9 @@
+## 18.06.2023
+
+- Very small bugfix to the Keybinds file which *potentially* prevents the game soft-locking in the login screen if you're not using the login screen config and -nomovies.
+
+
+
 ## 11.06.2023
 
 - Added "Stutter Fix" to Features. This is an experimental config by Kyouki so please read the readme before using this!
