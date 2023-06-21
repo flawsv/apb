@@ -1,7 +1,9 @@
 # Preface
 These modded files are all approved by Little Orbit and cannot and will not get your account suspended as of the time of writing this. If that ever changes this page, and the config itself, will be updated to reflect that. However, keep in mind that I take no responsibility for any harm caused to your account, your game or your software/hardware as a result of using these files. This config is still on a 'use at your own risk' basis. ***Be warned.***
 
-Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on Discord (`flaws`).
+Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on Discord `flaws`, however...
+
+### ***be advised that due to the recent changes on Discord, and the onslaught of bot spam friend requests, I have turned off friend invites from users I do not share mutual servers/friends with. So if you need help, its best to join my [discord server](https://discord.com/invite/MeMDVmj) first and maybe even mention your issue in there instead.***
 
 # Basics
 Go into the `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. Next you will need to `right click` -> `Properties` on the newly created shortcut and input the launch arugments you wish to use into the `Target` field.
@@ -158,6 +160,6 @@ This file includes "Smooth Frame Rate" being set to 128fps in case you ever need
 + Leefekyn - Localization (killfeed stun icon)
 + Tobii & Dopefish - For placing some of the foundations for modding APB many years ago, before leaving for greener pastures. ([Tobii's APB repository, mostly outdated now.](https://apb.zone/))
 
-You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227). My personal discord is `flaws` if you have any questions that were not answered here, if you wish to report any issues or make suggestions.
+You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227).
 
 You can also find lazer's config on his [GitHub Page](https://github.com/lvzxr/apb-reloaded).
