@@ -1,3 +1,9 @@
+## 24.06.2023
+
+- Updated Keybinds file once again due to the Primary and Secondary weapon buttons not appearing in the controls menu in the previous release.
+
+
+
 ## 18.06.2023
 
 - Very small bugfix to the Keybinds file which *potentially* prevents the game soft-locking in the login screen if you're not using the login screen config and -nomovies.
