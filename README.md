@@ -47,10 +47,9 @@ Example correct Target field path:
 + Muzzle Flash + Ragdolls + Audio Emitters - Several different configs that are all located in one file, thus having to add many different variants. More details below.
 
 ### Interface
-+ Faster UI ([Preview](https://i.imgur.com/nSbbnRr.jpg)) - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly.
++ Faster UI ([Preview](https://i.imgur.com/nSbbnRr.jpg)) - Changes what file the UI is to read from causing there to be parking signs throughout the inventory, can help to improve fps when changing mods quickly. Includes an additional variant - "White Mission Timer" (buggy and not recommended). ***Only pick one variant at a time!***
 + Localization
 + Notifications - Removes the district notification popups on the left of the screen for bounty, medals etc.
-+ White Mission Timer - Alternative to Faster UI. Buggy, not recommended as it breaks a bunch of stuff. ***Cannot be used together with Faster UI. Only pick one at a time!***
 
 ### Visuals
 + Graphics
@@ -62,7 +61,11 @@ Example correct Target field path:
 + High - Same as Low Poly but with lowest particles meaning no bullet holes, but also no fire from burning vehicles.
 + Maximum - Max graphics preset for highest quality with no regard for FPS, mainly used for screenshots and videos but can be played with on high-end systems.
 
-***You may swap between Minimal-Low and Medium-High seamlessly without needing to restart, but if you go from standard to low poly or vice versa, you would need to restart. You can also enable shadows on any of the presets by simply enabling "Dynamic Shadows" in the Advanced tab. The same applies for Double Buffering if you wish to use it.***
+***You may swap between Minimal-Low and Medium-High seamlessly without needing to restart, but if you go from standard to low poly or vice versa, you would need to restart.***
+
+***You can also enable shadows on any of the presets by simply enabling "Dynamic Shadows" in the Advanced tab. The same applies for Double Buffering if you wish to use it.***
+
+***If you are using either "Disabled Texture Streaming" OR "Stutter Fix", you can enable Bloom from the in-game settings as the actual "bloom" effect has been removed in those files, but the loadout/inventory menus will have a transparent, blurry background so you can see around you while changing loadouts.***
 
 # Localization
 `Localization` refers to the textual changes to the HUD/UI. This localization file set is designed with simplicity in mind as it strips away the dated, long-winded, orange walls of text the game is plagued by with short and concise messages, coupled with more pleasant and less dated colors. It comes in [several color presets](https://imgur.com/a/iy1z5zw).
