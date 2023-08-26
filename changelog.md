@@ -1,3 +1,15 @@
+## 26.08.2023
+
+- Graphics: APBCompat.ini - ParticleMaxWorldSpaceArea=50000.0 -> ParticleMaxWorldSpaceArea=0 for better grenade visibility, especially O-PGL. Only for the "Minimal" preset!
+ 
+- When using "Disabled Texture Streaming" OR "Stutter Fix", you can now enable Bloom from the in-game settings as the actual "bloom" effect has been removed in those files, but the loadout/inventory menus will have a transparent, blurry background so you can see around you while changing loadouts.
+ 
+- Various small localization fixes and updates.
+
+- Small fix to the keybinds file.
+
+
+
 ## 24.06.2023
 
 - Updated Keybinds file once again due to the Primary and Secondary weapon buttons not appearing in the controls menu in the previous release.
