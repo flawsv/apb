@@ -132,7 +132,7 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 
 You can follow lazer's guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
 
-# ***[EXPERIMENTAL]*** Stutters Fix / Removal of Unreal Engine's Garbage Collection (GC) timer
+# Stutters Fix / Removal of Unreal Engine's Garbage Collection (GC) timer
 ### **[16GB+ RAM ONLY]**
 
 In simplest terms this config by Kyouki should remove any stutters that occur in-game while you're playing missions or Fight Club caused by the game itself and should improve the overall performance of APB. Stutters in APB are caused by something called "Garbage Collection" (GC) which is a client side Unreal Engine system that APB relies on to not run out of memory and crash. This is normally on a 60 seconds timer and whenever it occurs it makes the game freeze/stutter. The stutter severity largely depends on the hardware the game is running on, particularly on CPU and hard drive speed. This is most often noticed whenever it occurs in fights, getting players killed. However, in recent times, APB devs have added an extra GC clear to occur on the respawn screen whenever you die which means that we can now afford to turn off the one that runs on a 60 seconds timer and play APB without it crashing within 20-30 minutes of gameplay.
@@ -140,8 +140,6 @@ In simplest terms this config by Kyouki should remove any stutters that occur in
 ### ***There is a downside to using this and that is the fact that, at least for now, designer kiosks (wardrobe, persona, etc) in Social do NOT work with this installed as they will load infinitely and softlock the game! This is intended for gameplay ONLY (missions/fight club), at least for now.***
 
 The file also does other things such as disable texture streaming for a free FPS boost on almost any machine and several other misc back-end value adjustments to improve performance. This file does NOT affect the game visually and you will not see ANY visual difference so it can be used with any graphics including vanilla.
-
-Please keep in mind that this file is EXPERIMENTAL as we are still testing it and while it does seem to work well for 95%+ of users so far, we may introduce adjustments or improvements in the future.
 
 This file includes "Smooth Frame Rate" being set to 128fps in case you ever need to toggle it while in-game, to prevent character sliding.
 
