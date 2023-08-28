@@ -13,7 +13,7 @@
 
 
 
-## 26.08.2023
+## v1.5 - 26.08.2023
 
 - Graphics: APBCompat.ini - ParticleMaxWorldSpaceArea=50000.0 -> ParticleMaxWorldSpaceArea=0 for better grenade visibility, especially O-PGL. Only for the "Minimal" preset!
  
