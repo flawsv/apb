@@ -1,7 +1,7 @@
 ## v1.6 - 28.08.2023
 
 **Localization:**
-- Fixed the "Dance Urban" emote command which was not consistent with the rest of the dance commands. (/danceurban -> /urban)
+- Fixed the "Dance Urban" emote command which was not consistent with the rest of the dance commands: /danceurban -> /urban
 - /strikeapose1 & /strikeapose2 -> /pose1 & /pose2
 
 
