@@ -22,7 +22,7 @@ Some configs may require further setup and those will be covered further below.
 # Launch arguments
 + `-language=1031` - Sets game to load with custom localization (must use for localization).
 + `-nomovies` / `-nomoviesstartup` - Removes loading screens.
-+ `-nosplash` - Removes initial splash screen upon boot.
++ `-nosplash` - Removes initial splash screen upon boot. (Easy Anti-Cheat splash screen cannot be hidden.)
 + `-nosteam` - Disables Steam integration, including the Steam auto-login.
 
 Example correct Target field path:
