@@ -1,3 +1,10 @@
+## v1.6.1 - 28.08.2023
+
+**Features - Stutter Fix:**
+- Added an extra file to the Stutter Fix folder, so users can easily swap between having no stutters and functional customization without having to repair the game or edit ini files. They can be easily swapped whenever any customizations/designing needs to be done. Details and instructions in the Stutter Fix section of the readme.
+
+
+
 ## v1.6 - 28.08.2023
 
 **Localization:**
