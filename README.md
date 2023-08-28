@@ -82,6 +82,7 @@ Example correct Target field path:
 + `/exit` -> `/q`
 + `/abandonmission` -> `/a`
 + `/dance` variants without the word dance -> `/urban`, `/michael,`, `/techno`, etc
++ `/strikeapose1`, `/strikeapose2` -> `/pose1`, `/pose2`
 + `/groupinvitemodedefault` -> `/gimd` (When not in a group type, `/gimd true` to allow all members of group to be able to invite everytime)
 
 ### Optional addon: Shortened Chat Channels 
