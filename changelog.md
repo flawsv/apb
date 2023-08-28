@@ -1,3 +1,11 @@
+## v1.6 - 28.08.2023
+
+**Localization:**
+- Fixed the "Dance Urban" emote command which was not consistent with the rest of the dance commands. (/danceurban -> /urban)
+- /strikeapose1 & /strikeapose2 -> /pose1 & /pose2
+
+
+
 ## 26.08.2023
 
 - Graphics: APBCompat.ini - ParticleMaxWorldSpaceArea=50000.0 -> ParticleMaxWorldSpaceArea=0 for better grenade visibility, especially O-PGL. Only for the "Minimal" preset!
