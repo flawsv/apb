@@ -1,13 +1,13 @@
 ## v1.6.1 - 28.08.2023
 
-**Features - Stutter Fix:**
+**Features / Stutter Fix:**
 - Added an extra file to the Stutter Fix folder, so users can easily swap between having no stutters and functional customization without having to repair the game or edit ini files. They can be easily swapped whenever any customizations/designing needs to be done. Details and instructions in the Stutter Fix section of the readme.
 
 
 
 ## v1.6 - 28.08.2023
 
-**Localization:**
+**Interface / Localization:**
 - Fixed the "Dance Urban" emote command which was not consistent with the rest of the dance commands: /danceurban -> /urban
 - /strikeapose1 & /strikeapose2 -> /pose1 & /pose2
 
@@ -15,12 +15,16 @@
 
 ## v1.5 - 26.08.2023
 
-- Graphics: APBCompat.ini - ParticleMaxWorldSpaceArea=50000.0 -> ParticleMaxWorldSpaceArea=0 for better grenade visibility, especially O-PGL. Only for the "Minimal" preset!
- 
+**Visuals / Graphics:**
+- APBCompat.ini - ParticleMaxWorldSpaceArea=50000.0 -> ParticleMaxWorldSpaceArea=0 for better grenade visibility, especially O-PGL. Only for the "Minimal" preset!
+
+**Features / Disabled Texture Streaming + Stutter Fix:**
 - When using "Disabled Texture Streaming" OR "Stutter Fix", you can now enable Bloom from the in-game settings as the actual "bloom" effect has been removed in those files, but the loadout/inventory menus will have a transparent, blurry background so you can see around you while changing loadouts.
- 
+
+**Interface / Localization:**
 - Various small localization fixes and updates.
 
+**Features / Keybinds:**
 - Small fix to the keybinds file.
 
 
