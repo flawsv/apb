@@ -40,7 +40,7 @@ Example correct Target field path:
 ### Features
 + Stutter Fix - Removal of APB's Garbage Collection 60 seconds timer. Please read further below on how to use this.
 + Disable Texture Streaming (FPS Boost)* - Free FPS boost on most systems without any visual differences. Please read further below on how to use this.
-+ FPS Unlock - Allows you to either increase the game's FPS cap or unlock it to infinity. Smooth Frame Rate is also changed to 128fps when enabled in-game in each of the presets. ***Ignore if using Disable Texture Streaming (FPS Boost)***
++ FPS Unlock - Allows you to either increase the game's FPS cap or unlock it to infinity. Smooth Frame Rate is also changed to 128fps when enabled in-game in each of the presets. ***Ignore if using Disable Texture Streaming (FPS Boost) OR Stutter Fix***
 + Keybinds - Adds several new bindable keybinds in the in-game controls menu that you can change on the fly including auto sprint, hold crouch, abandon mission, etc. More details below.
 + Login Screen - Sets login screen to a black scene with no music, making the game load significantly faster. Still allows character creation.
 + Disable VivoxVoiceService - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing.
