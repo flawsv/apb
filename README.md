@@ -97,11 +97,11 @@ This is for those who want to keep the game's vanilla localization but want to s
 This does a few things all at once (+/- 32GB RAM):
 - Uncaps your fps to infinite.
 - Disabled Texture Streaming (DTS) - Universal FPS boost without any loss of graphics quality.
-- Changes the "Smooth Frame Rate" setting in the in-game Video options to cap your fps at 128 which is the highest you can go without your character randomly sliding. Useful for precise weapons such as the HVR.
+- Changes the "Smooth Frame Rate" setting in the in-game Video options to cap your fps at 128 which is the highest you can go without your character randomly sliding. Useful for precision weapons such as the HVR.
 - Garbage Collection (GC) - Additional feature which turns off GC, which will completely eliminate the stutters that occur every 60 seconds.
 
 > [!CAUTION]
-> Removing GC will prevent you from using any customization kiosks in the Social district. Swapping between "DTS only" and DTS + GC is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. > For casual players who only wish to uncap their FPS and gain a performance boost, simply use "DTS only".
+> Removing GC will prevent you from using any customization kiosks in the Social district. Swapping between "DTS only" and DTS + GC is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For casual players who only wish to uncap their FPS and gain a performance boost, simply use "DTS only".
 
 # Muzzle Flash + Ragdolls
 Both of these entirely different configs are located within the same file (`DefaultGame.ini`) and so I've added multiple variants to pick from.
