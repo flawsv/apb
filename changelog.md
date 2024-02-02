@@ -1,3 +1,22 @@
+## v1.7 - 02.02.2024
+
+**Visuals**
+- Added Black Sky and Black Sky Full Bright variants.
+- Updated Graphics file.
+
+**Features / Keybinds**
+- Added new crouch hold variant to keybinds which prevents you from getting stuck in crouch. Make sure to re-beind your crouch key to the newly added one in the in-game controls settings.
+- Fixed Keybinds sometimes breaking for French language keyboard users.
+
+**Interface / Localization:**
+- Updated Localization. It is recommended to delete everything from your GER folder and then installing this new one if you already have localization installed.
+
+**Misc:**
+- Made some things less complex and confusing. Moved/renamed some things, combined some things that served little to no purpose being separate or having too many variants.
+- Added an easy to use preset for config beginners.
+
+
+
 ## v1.6.1 - 28.08.2023
 
 **Features / Stutter Fix:**
