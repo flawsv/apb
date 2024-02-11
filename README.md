@@ -53,6 +53,7 @@ Example correct Target field path:
 ### Visuals
 + Graphics
 + Black Sky - Includes regular Black Sky and Black Sky Full Bright. Social is always full bright regardless of variant.
++ Bloom - There are no files for this, its explained further down in this document.
 
 # Graphics presets
 
@@ -127,6 +128,12 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 + Camera look up/down hotkeys (Camera).
 
 ***Also with this installed, Alt + F4 finally works now, over a decade later. However it doesn't work in the character selection screen for now. But it works pretty much everywhere else.***
+
+# Bloom
+
+If you wish to disable the actual effects of bloom in-game but retain the blurry transparent background in the inventory/loadout menus, simply navigate to `APB Reloaded\Engine\Config\BaseEngine.ini`, find `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and add ; in front of it like so: `;DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` then save the file. I recommend doing this only after you've installed any of the DTS variants as those replace BaseEngine.ini, assuming you wish to use a DTS config (but it is not required for this to work).
+
+Once that's done simply open the game and enable Bloom from the Video > Advanced settings.
 
 # Disabling UI elements
 
