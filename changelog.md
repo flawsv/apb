@@ -1,3 +1,13 @@
+## v1.7.1 - 26.03.2024
+
+**Visuals / Black Sky**
+- Added "No Weather" black sky variants.
+
+**Interface / Localization:**
+- Minor fixes in localization.
+
+
+
 ## v1.7 - 02.02.2024
 
 **Visuals**
