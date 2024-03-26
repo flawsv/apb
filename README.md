@@ -68,7 +68,9 @@ The following are all contained in a single file and can be changed from the in-
 > You may swap between Minimal-Low and Medium-High seamlessly without needing to restart, but if you go from standard to low poly or vice versa, you would need to restart. You can also enable shadows on any of the presets by simply enabling "Dynamic Shadows" in the Advanced tab. The same applies for Double Buffering if you wish to use it.
 
 # Localization
-`Localization` refers to the textual changes to the HUD/UI. This localization file set is designed with simplicity in mind as it strips away the dated, long-winded, orange walls of text the game is plagued by with short and concise messages, coupled with more pleasant and less dated colors. It comes in [several color presets](https://imgur.com/a/iy1z5zw).
+`Localization` refers to the textual changes to the HUD/UI. This localization file set is designed with simplicity in mind as it strips away the dated, long-winded, orange walls of text the game is plagued by with short and concise messages, coupled with more pleasant and less dated colors. It comes in several color presets:
+
+![localization color presets](https://i.imgur.com/jsbdUv9.png)
 
 >[!CAUTION]
 >Please note that in order for the localization to work, you need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field as described above!
@@ -87,7 +89,14 @@ The following are all contained in a single file and can be changed from the in-
 + `/groupinvitemodedefault` -> `/gimd` (When not in a group type, `/gimd true` to allow all members of group to be able to invite everytime)
 
 ### Optional addon: Shortened Chat Channels 
-Changes the chat channels from whole words to abbreviations. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set. [Preview](https://imgur.com/a/KIrj2KN).
+Changes the chat channels from whole words to abbreviations. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set. 
+
+<details>
+  <summary>Click here to preview the shortened chat channels</summary>
+  
+![shortened chat channels](https://i.imgur.com/NAfIVNl.png)
+
+</details>
 
 ### Optional Vanilla addon: Mission Stages only
 This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants. Simply only copy this and follow the rest of the steps for the APB.exe shortcut creation like you would with the full localization.
@@ -128,6 +137,20 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 + Camera look up/down hotkeys (Camera).
 
 ***Also with this installed, Alt + F4 finally works now, over a decade later. However it doesn't work in the character selection screen for now. But it works pretty much everywhere else.***
+
+# Black Sky
+
+Black sky comes in 4 variants. The "No Weather" variants get rid of the greenish tint and give more color/vibrance to the whole game.
+
+<details>
+  <summary>Click here to see the differences</summary>
+  
+![black sky](https://i.imgur.com/lTxUUt6.png)
+![black sky no weather](https://i.imgur.com/xpJsdPD.png)
+![black sky fullbright](https://i.imgur.com/36PfzHD.png)
+![black sky fullbright no weather](https://i.imgur.com/4777H8X.png)
+
+</details>
 
 # Bloom
 
