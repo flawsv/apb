@@ -1,3 +1,17 @@
+## 1.7.3 - 13.07.2024
+
+**Interface / Localization:**
+- Small localization adjustment.
+
+
+
+## v1.7.2 - 06.06.2024
+
+**Interface / Localization:**
+- Updated all localization to accomodate the newly added 'Escalation' feature, added with the recent matchmaking update.
+
+
+
 ## v1.7.1 - 26.03.2024
 
 **Visuals / Black Sky**
