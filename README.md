@@ -6,7 +6,11 @@ These modded files are all approved by Little Orbit and cannot and will not get 
 Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on my [Discord server](https://discord.com/invite/MeMDVmj).
 
 # Setup & Basics
-First, you need to do the following steps regardless of which configs you're going to use. Go into your `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. Next you will need to `right click` -> `Properties` on the newly created desktop shortcut and input the `launch arugments` you wish to use into the `Target` field. Please refer to the [Launch Arguments Segment](https://github.com/flawsv/apb?tab=readme-ov-file#launch-arguments) to figure out which ones you need first.
+First, you need to do the following steps regardless of which configs you're going to use otherwise they won't work.
+
+Go into your `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. 
+
+Next you will need to `right click` -> `Properties` on the newly created desktop shortcut and input the `launch arugments` you wish to use into the `Target` field. Please refer to the [Launch Arguments Segment](https://github.com/flawsv/apb?tab=readme-ov-file#launch-arguments) to figure out which ones you need first.
 
 > [!WARNING]
 > If you open the default APB launcher, most of your modded files will be automatically replaced with the vanilla ones, thus we must launch the game directly from the shortcut when using configs. Whenever a patch comes out for the game you must launch the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from the `APB.exe` desktop shortcut.
