@@ -5,12 +5,14 @@ These modded files are all approved by Little Orbit and cannot and will not get 
 
 Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on my [Discord server](https://discord.com/invite/MeMDVmj).
 
-# Basics
-Go into the `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. Next you will need to `right click` -> `Properties` on the newly created desktop shortcut and input the launch arugments you wish to use into the `Target` field.
+# Setup & Basics
+First, you need to do the following steps regardless of which configs you're going to use. Go into the `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. Next you will need to `right click` -> `Properties` on the newly created desktop shortcut and input the `launch arugments` you wish to use into the `Target` field. Please refer to the [Launch Arguments Segment](https://github.com/flawsv/apb/blob/main/README.md#launch-arguments) to figure out which ones you need first.
 
-If you open the default APB launcher, most of your modded files will be automatically replaced with the vanilla ones, thus we must launch the game directly from the shortcut when using configs. Whenever a patch comes out for the game you must launch the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from the `APB.exe` desktop shortcut.
+> [!WARNING]
+> If you open the default APB launcher, most of your modded files will be automatically replaced with the vanilla ones, thus we must launch the game directly from the shortcut when using configs. Whenever a patch comes out for the game you must launch the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from the `APB.exe` desktop shortcut.
 
-If you ever mess anything up or you want to revert *everything* to vanilla and start over, simply open the default APB launcher, click `Options` -> `Repair` and wait for it to finish. Once that is done you may close the launcher and start over with modding your game.
+> [!NOTE]
+> If you ever mess anything up or you want to revert *everything* to vanilla and start over, simply open the default APB launcher, click `Options` -> `Repair` and wait for it to finish. Once that is done you may close the launcher and start over with modding your game.
 
 # Installation
 Most of the configs are very simple to install, simply drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
@@ -46,7 +48,14 @@ Example correct Target field path:
 + Muzzle Flash + Ragdolls - Muzzle Flash on/off + Ragdolls on/off variants.
 
 ### Interface
-+ Faster UI ([Preview](https://i.imgur.com/nSbbnRr.jpg)) - Helps to reduce stuttering when changing loadout. Includes an additional variant - "White Mission Timer" (buggy and not recommended).
++ Faster UI - Helps to reduce stuttering when changing loadout. Includes an additional variant - "White Mission Timer" (buggy and not recommended).
+  <details>
+    
+  <summary>Click here to preview Faster UI</summary>
+    
+  ![faster ui](https://i.imgur.com/nSbbnRr.jpg)
+  </details>
+
 + Localization
 + Notifications - Removes the district notification popups on the left of the screen for bounty, medals etc.
 
@@ -76,9 +85,10 @@ The following are all contained in a single file and can be changed from the in-
 >Please note that in order for the localization to work, you need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field as described above!
 
 ### Key features of this localization
-+ Missions that are usually avoided by players now have their names in full bright red so that you know to abandon quickly.
++ ~~Missions that are usually avoided by players now have their names in full bright red so that you know to abandon quickly.~~ <br />
+ <sup>This has been removed as unopposed missions can no longer occur and you can not abandon missions anymore.</sup>
 + Simplifies the overall interface, giving maximum information while remaining compact and much easier to read with just a quick glance compared to vanilla UI.
-+ Enhances and recolors text and makes everything look much cleaner, nicer and easier on the eyes allowing you to focus more on the actual game.
++ Enhances and recolors text and makes everything look much cleaner and easier on the eyes allowing you to focus more on the actual game.
 + Included is a variant of rooq and lazer's mission stages config with timers and other extras.
 
 ### Slash command changes
@@ -88,7 +98,11 @@ The following are all contained in a single file and can be changed from the in-
 + `/strikeapose1`, `/strikeapose2` -> `/pose1`, `/pose2`
 + `/groupinvitemodedefault` -> `/gimd` (When not in a group type, `/gimd true` to allow all members of group to be able to invite everytime)
 
-### Optional addon: Shortened Chat Channels 
+## Optional addons for any localization
+>[!CAUTION]
+>Make sure to apply these *AFTER* you've applied your desired localization (does not necessarily have to be any of mine) otherwise these addons will be overwritten.
+
+### Shortened chat channels 
 Changes the chat channels from whole words to abbreviations. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set. 
 
 <details>
@@ -98,7 +112,10 @@ Changes the chat channels from whole words to abbreviations. Works with any loca
 
 </details>
 
-### Optional Vanilla addon: Mission Stages only
+### Street names removal
+Removes street names from the bottom right corner of the screen under the radar, as they don't really serve any purpose outside of maybe pumpkin hunting during the Halloween event. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set.
+
+### Mission stages only (Vanilla localization)
 This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants. Simply only copy this and follow the rest of the steps for the APB.exe shortcut creation like you would with the full localization.
 
 ***You are free to edit this localization as you desire for personal use, however if you wish to build your own and use mine as a base and distribute it publicly, please credit me for making the base for it.***
@@ -129,7 +146,7 @@ Either remove all ragdolls or NPC (civilian) ragdolls only. Helps with visibilit
 This new config adds a variety of new easily rebindable keys within the in-game controls settings, while still keeping all the old ones fully intact, allowing you to switch them on the fly. These are unbound by default so once you install this and launch your game, you will have to manually bind them to whatever you wish personally.
 + Auto-Sprint (Movement) - Bind it to Shift to get the classic auto-sprint like before. Holding Shift + W will make you jog like it did previously.
 + Hold Crouch (Movement) - Added new hold crouch method which prevents you from getting stuck in crouch (highly recommended). The old 'stuckable' method is also still present for those who prefer it but it is now labeled "Crouch (Hold) [Classic]". Simply bind your crouch button to either one.
-+ Abandon Mission (Interface) - Allows you to directly abandon missions with a keybind without having to type anything in chat.
++ Abandon Mission (Interface) - Allows you to directly abandon missions with a keybind without having to type anything in chat. Button is still there and it *works* but it can't be used anywhere anymore.
 + Hold Lean (Combat) - Hold key to lean instead of toggle while aiming down the sights.
 + Primary/Secondary weapon (Combat) - Switch to primary or secondary weapon without cycling through to the next weapon upon pressing the key multiple times.
 + Social Designers Anywhere (Interface) - Allows you to access the Wardrobe, Persona, Garage, Music Studio and Symbol designers from anywhere within the Social district, without having to go up to the actual kiosks. Only works in the Social district.
