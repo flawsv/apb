@@ -1,3 +1,11 @@
+## 1.7.4 - 11.08.2024
+
+**Interface / Localization:**
+- Added localization addon "Street name removal" - more info in readme.
+- Updates to all localization.
+
+
+
 ## 1.7.3 - 13.07.2024
 
 **Interface / Localization:**
