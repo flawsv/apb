@@ -1,3 +1,9 @@
+# APB 1.32 New Horizon Update disclaimer
+The ['New Horizon'](https://www.gamersfirst.com/apb/news/2024/8/6/new-horizon) APB update introduced a new anti-cheat known as SARD and with it came [new, stricter config rules](https://www.gamersfirst.com/apb/news/2024/8/14/sard-faq) which more or less state that anything outside of `.ini` file edits and `localization` is *"at your own risk"*. As these are all very new rules that are still a work in progress by Little Orbit, I would advise anyone who wants to stay on the safe side to only use the files that are included in my configs after v1.8.0 NH (NH = New Horizon). If you're fine with taking the risk you may try to use files from the previous ones (v1.7.4 and below) which have been removed from the NH ones. Most of them should technically work but whether the anti-cheat/LO will take action on them is yet unknown. This is your only warning. I will keep the rest of the readme document in-tact for now as things are still developing on the config front.
+
+Additionally, for anyone who wants to be 110% sure they will remain clean and unharmed, I would even go as far as to advise you to completely reinstall the game from scratch by uninstalling, then deleting/wiping your entire APB folder and downloading the game again then only applying my new NH configs. Not necessary but if you can do it then you might as well.
+
+
 # Preface
 These modded files are all approved by Little Orbit and cannot and will not get your account suspended as of the time of writing this. If that ever changes this page, and the config itself, will be updated to reflect that. However, keep in mind that I take no responsibility for any harm caused to your account, your game or your software/hardware as a result of using these files. This config is still on a 'use at your own risk' basis. 
 
@@ -118,6 +124,13 @@ Changes the chat channels from whole words to abbreviations. Works with any loca
 
 ### Street names removal
 Removes street names from the bottom right corner of the screen under the radar, as they don't really serve any purpose outside of maybe pumpkin hunting during the Halloween event. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set.
+
+<details>
+  <summary>Click here to preview the street names removal</summary>
+  
+![street names removal](https://i.imgur.com/ZQvV1q2.png)
+
+</details>
 
 ### Mission stages only (Vanilla localization)
 This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants. Simply only copy this and follow the rest of the steps for the APB.exe shortcut creation like you would with the full localization.
