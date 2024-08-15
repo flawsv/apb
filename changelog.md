@@ -1,3 +1,9 @@
+## 1.8.0 (APB 1.31 "New Horizon" launch) - 14.08.2024
+
+- Removed a select few features from the config that are not abiding by the new rules introduced with the New Horizon update.
+
+
+
 ## 1.7.4 - 11.08.2024
 
 **Interface / Localization:**
