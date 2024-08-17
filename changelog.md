@@ -1,3 +1,9 @@
+## 1.8.1 - 17.08.2024
+
+- Added new legal method for the login screen config. Same effect as before but only edits an .ini file which is officially allowed. Method was also approved by Little Orbit staff directly. It is now included in the DTS files, for each possible preset of both DTS only and DTS + GC.
+
+
+
 ## 1.8.0 (APB 1.31 "New Horizon" launch) - 14.08.2024
 
 - Removed a select few features from the config that are not abiding by the new rules introduced with the New Horizon update.
