@@ -1,3 +1,11 @@
+## 2.0 - 26.08.2024
+
+- Added [file changes breakdown instructions](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) to the github repository so users can easily turn features on/off with simple ini file edits.
+- Rewrote most of the readme document, making it shorter and hopefully easier to read.
+- Restructured the entire zip file.
+
+
+
 ## 1.8.2 - 20.08.2024
 
 - Fixed keybinds breaking inputs on French (AZERTY) keyboards.
