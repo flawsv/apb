@@ -1,119 +1,98 @@
-# APB 1.31 "New Horizon" Update disclaimer
-The ['New Horizon'](https://www.gamersfirst.com/apb/news/2024/8/6/new-horizon) APB update introduced a new anti-cheat known as SARD and with it came [new, stricter config rules](https://www.gamersfirst.com/apb/news/2024/8/14/sard-faq) which more or less state that anything outside of `.ini` file edits and `localization` is *"at your own risk"*. As these are all very new rules that are still a work in progress by Little Orbit, I would advise anyone who wants to stay on the safe side to only use the files that are included in my configs after v1.8.0 NH (NH = New Horizon). If you're fine with taking the risk you may try to use files from the previous ones (v1.7.4 and below) which have been removed from the NH ones. Most of them should technically work but whether the anti-cheat/LO will take action on them is yet unknown. This is your only warning. I will keep the rest of the readme document in-tact for now as things are still developing on the config front.
-
-Additionally, for anyone who wants to be 110% sure they will remain clean and unharmed, I would even go as far as to advise you to completely reinstall the game from scratch by uninstalling, then deleting/wiping your entire APB folder and downloading the game again then only applying my new NH configs. Not necessary but if you can do it then you might as well.
-
-
 # Preface
-These modded files are all approved by Little Orbit and cannot and will not get your account suspended as of the time of writing this. If that ever changes this page, and the config itself, will be updated to reflect that. However, keep in mind that I take no responsibility for any harm caused to your account, your game or your software/hardware as a result of using these files. This config is still on a 'use at your own risk' basis. 
+These modified files are all safe and approved directly by Little Orbit staff and will not get your account suspended. If that ever changes the config will be updated to reflect that but keep in mind that I take no responsibility for any harm caused to your account, your game or your software/hardware as a result of using these files. Modding live service games is still on a ***'use at your own risk'*** basis.
 
-***You've been warned.***
+Many of the edits present in these files are not my own discovery/creation and as such credit is given where credit is due at the bottom of this document. This config is meant to serve as a one stop shop for everyone who wishes to mod APB within the bounds of the Little Orbit Terms of Service without fear of suspension or other negative outcomes.
 
-Additionally, please read everything thoroughly before asking questions as I've done my best to be as thorough as possible and to answer almost any possible situation/outcome in this document. But if you are truly stumped, or you wish to report an issue, feel free to contact me on my [Discord server](https://discord.com/invite/MeMDVmj).
+Many things have changed or are no longer allowed post-APB 1.31 'New Horizon' and as such those files are no longer distributed/supported here. Please read everything thoroughly first and if you wish to ask a question or report an issue, feel free to post about it on my [discord server](https://discord.com/invite/MeMDVmj).
 
 # Setup & Basics
-First, you need to do the following steps regardless of which configs you're going to use otherwise they won't work.
+First, you need to do the following steps regardless of which configs you're going to use:
 
-Go into your `APB Reloaded\Binaries` folder and create a shortuct of `APB.exe` to your desktop. The executable may appear as only `APB` or `APB.exe` depending on your Windows settings but this does not matter. 
+1. Navigate to `APB Reloaded\Binaries` and create a shortuct of `APB` or `APB.exe` (depending on your Windows settings) to your desktop.
+2. Right click -> Properties on the newly created desktop shortcut and input the [launch arguments](https://github.com/flawsv/apb?tab=readme-ov-file#launch-arguments) you wish to use into the `Target` field.
 
-Next you will need to `right click` -> `Properties` on the newly created desktop shortcut and input the `launch arugments` you wish to use into the `Target` field. Please refer to the [Launch Arguments Segment](https://github.com/flawsv/apb?tab=readme-ov-file#launch-arguments) to figure out which ones you need first.
+From now on you must launch your game through this new desktop shortcut in order for the configs to work.
 
-> [!WARNING]
-> If you open the default APB launcher, most of your modded files will be automatically replaced with the vanilla ones, thus we must launch the game directly from the shortcut when using configs. Whenever a patch comes out for the game you must launch the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from the `APB.exe` desktop shortcut.
+> [!IMPORTANT]
+> Whenever a game update comes out you must open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut.
 
 > [!NOTE]
-> If you ever mess anything up or you want to revert *everything* to vanilla and start over, simply open the default APB launcher, click `Options` -> `Repair` and wait for it to finish. Once that is done you may close the launcher and start over with modding your game.
+> In order to revert everything back to vanilla and start over, open the default APB launcher, click Options -> Repair and let it finish. Once that is done you may close the launcher and start over with modding your game.
 
 # Installation
-Most of the configs are very simple to install, simply drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
+Drag and drop the folders into your APB Reloaded main directory and replace everything when prompted to.
 
-For example, if you wish to install my graphics, simply open the `Graphics` folder and drag and drop `APBGame` into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
+For example, if you wish to install my graphics open the `Graphics` folder and drag and drop the `APBGame` folder into your own APB Reloaded main directory where your own `APBGame` folder is located but ***NOT inside `APBGame` itself!*** If Windows prompts you to replace files then you're doing it right. If not, check whether you are placing the files in the correct directory.
 
-Some configs may require further setup and those will be covered further below.
+The only config that requires one additional step is localization because you need to add the `-language=1031` launch argument to your shortcut in case you haven't already done that.
 
 # Launch arguments
-+ `-language=1031` - Sets game to load with custom localization (must use for localization).
++ `-language=1031` - Sets game to load with custom localization (required for localization).
 + `-nomovies` / `-nomoviesstartup` - Removes loading screens.
-+ `-nosplash` - Removes initial splash screen upon boot. (Easy Anti-Cheat splash screen cannot be hidden.)
-+ `-nosteam` - Disables Steam integration, including the Steam auto-login.
++ `-nosplash` - Removes initial splash screen upon boot (SARD logo cannot be removed).
++ `-nosteam` - Disables Steam integration, including Steam auto-login.
 
-Example correct Target field path:
+<details>
+  <summary>Click here for an image example of launch arguments</summary>
+  
+![targetfield](https://i.imgur.com/o0vQdAr.png)
 
+</details>
+
+
+Example correct Target field path: <br >
 `"C:\Program Files (x86)\Steam\steamapps\common\APB Reloaded\Binaries\APB.exe" -language=1031 -nomovies -nosplash`
-
 > [!CAUTION]
-> Be sure to add a space after the quotations and before the dash, as well as between each launch argument as shown in the example!
+> Be sure to add a space after the quotations and before the dash, as well as between each launch argument as shown in the examples.
 
-# List of all features
-### Audio
-+ Ambient Sounds - Removes a large majority of ambient sounds which are not needed for gameplay purposes, including music coming from cars and Joker Ammo Vending Machine voice lines.
-+ Dialogue - Removes all speech and screams from your character and other NPCs, including contacts speech.
-+ RTW Vegas Sound - Replaces the Patriot Vegas G20 and 4x4 sounds with the old [RTW Vegas sounds](https://youtu.be/tAJi1-57qLU?t=79) and leaves all other sounds vanilla. Bishada sounds not included.
+# Features
++ FPS Unlock + Login Screen + DTS + GC - Multiple game performance-enhancing edits that do not affecting the game's visuals.
++ Keybinds - Adds several new keybinds to the in-game controls menu that you can change on the fly including auto sprint and hold crouch.
++ Muzzle Flash + Ragdolls - Muzzle Flash on/off and Ragdolls on/off.
++ Localization - Textual changes to the HUD/UI.
++ Graphics - Visual changes/optimizations and visibility improvements.
++ Car Music Removal - This should prevent you from hearing music coming from other players' vehicles in most instances.
 
-### Features
-+ FPS Unlock + DTS + GC - FPS Uncap + Disabled Texture Streaming + Garbage Collection variants. More details below.
-+ Keybinds - Adds several new bindable keybinds in the in-game controls menu that you can change on the fly including auto sprint, hold crouch, abandon mission, etc. More details below.
-+ Login Screen - Sets login screen to a black scene with no music, making the game load significantly faster.
-+ VivoxVoiceService Removal - Blanks the Vivox.exe file causing it to not load, fixes Steam sometimes getting stuck on APB due to Vivox not closing.
-+ Muzzle Flash + Ragdolls - Muzzle Flash on/off + Ragdolls on/off variants.
-
-### Interface
-+ Faster UI - Helps to reduce stuttering when changing loadout. Includes an additional variant - "White Mission Timer" (buggy and not recommended).
-  <details>
-    
-  <summary>Click here to preview Faster UI</summary>
-    
-  ![faster ui](https://i.imgur.com/nSbbnRr.jpg)
-  </details>
-
-+ Localization
-+ Notifications - Removes the district notification popups on the left of the screen for bounty, medals etc.
-
-### Visuals
-+ Graphics
-+ Black Sky - Includes regular Black Sky and Black Sky Full Bright. Social is always full bright regardless of variant.
-+ Bloom - There are no files for this, its explained further down in this document.
+More details regarding each of these further down.
 
 # Graphics presets
 
-The following are all contained in a single file and can be changed from the in-game Video options:
-+ Minimal - The main, Standard preset: High quality characters, cars, symbols, weapons, grenade/OPGL/rocket smoke is clearly visible, fences and doors are see-through. Transparent mission description and spawn screen. Everything else is lowest possible quality. Fog off but can be turned on from the Advanced tab in-game.
-+ Low - Same as Standard but with lowest particles meaning no bullet holes, but also no fire from burning vehicles.
-+ Medium - Low Poly: Everything is low polygon. Character, car and weapon texture quality is kept high so you can see designs. Fences and doors are see-through, grenade/OPGL/rocket smoke is visible. Transparent mission description and spawn screen. Fog off but can be turned on from the Advanced tab in-game.
-+ High - Same as Low Poly but with lowest particles meaning no bullet holes, but also no fire from burning vehicles.
-+ Maximum - Max graphics preset for highest quality with no regard for FPS, mainly used for screenshots and videos but can be played with on high-end systems.
+The following are all contained in a single file and can be changed from the in-game Video options by changing the quality preset:
++ Minimal (Standard) - High quality player characters and cars, symbols and weapons. Grenade/OPGL/rocket smoke is clearly visible, fences and doors are see-through. Transparent mission description and respawn screen.
++ Low - Same as Minimal but with lowest particles meaning no bullet holes, but also no fire from burning vehicles.
++ Medium (Low poly) - Low poly models. Player characters, cars and weapon textures quality is kept high so you can see designs. Fences and doors are see-through, grenade/OPGL/rocket smoke is visible. Transparent mission description and respawn screen.
++ High - Same as Medium but with lowest particles meaning no bullet holes, but also no fire from burning vehicles.
++ Maximum - Max graphics preset for highest quality with no regard for FPS, mainly used for screenshots and videos.
 
 > [!NOTE]
-> You may swap between Minimal-Low and Medium-High seamlessly without needing to restart, but if you go from standard to low poly or vice versa, you would need to restart. You can also enable shadows on any of the presets by simply enabling "Dynamic Shadows" in the Advanced tab. The same applies for Double Buffering if you wish to use it.
+> You may swap between the Minimal-Low and Medium-High presets seamlessly without needing to restart, but if you go from standard to low poly or vice versa, you would need to restart. You can also enable shadows on any of the presets by simply enabling "Dynamic Shadows" in the Advanced tab, as well as Double Buffering and Fog.
 
 # Localization
-`Localization` refers to the textual changes to the HUD/UI. This localization file set is designed with simplicity in mind as it strips away the dated, long-winded, orange walls of text the game is plagued by with short and concise messages, coupled with more pleasant and less dated colors. It comes in several color presets:
+Localization simplifies the overall interface and changes text colors in the HUD/UI so you can focus more on the game while still providing you with all the vital information on screen. Included is a variant of rooq and lazer's mission stages config with stage timers and other extras. It comes in several color presets:
+<details>
+  <summary>Click here to preview the color presets</summary>
 
-![localization color presets](https://i.imgur.com/jsbdUv9.png)
+  ![localization color presets](https://i.imgur.com/jsbdUv9.png)
 
->[!CAUTION]
->Please note that in order for the localization to work, you need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field as described above!
+</details>
 
-### Key features of this localization
-+ ~~Missions that are usually avoided by players now have their names in full bright red so that you know to abandon quickly.~~ <br />
- <sup>This has been removed as unopposed missions can no longer occur and you can not abandon missions anymore.</sup>
-+ Simplifies the overall interface, giving maximum information while remaining compact and much easier to read with just a quick glance compared to vanilla UI.
-+ Enhances and recolors text and makes everything look much cleaner and easier on the eyes allowing you to focus more on the actual game.
-+ Included is a variant of rooq and lazer's mission stages config with timers and other extras.
-
-### Slash command changes
+### This localization changes the following /slash commands
 + `/exit` -> `/q`
-+ `/abandonmission` -> `/a`
++ `/abandonmission` -> `/a` (obsolete)
 + `/dance` variants without the word dance -> `/urban`, `/michael,`, `/techno`, etc
 + `/strikeapose1`, `/strikeapose2` -> `/pose1`, `/pose2`
 + `/groupinvitemodedefault` -> `/gimd` (When not in a group type, `/gimd true` to allow all members of group to be able to invite everytime)
 
-## Optional addons for any localization
->[!CAUTION]
->Make sure to apply these *AFTER* you've applied your desired localization (does not necessarily have to be any of mine) otherwise these addons will be overwritten.
+>[!IMPORTANT]
+>Please note that in order for the localization to work, you need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field as mentioned previously.
 
-### Shortened chat channels 
-Changes the chat channels from whole words to abbreviations. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set. 
+>[!NOTE]
+>You are free to edit this localization as you desire for personal use, however if you wish to build your own and use mine as a base and then distribute it publicly, please credit me for making the base for it.
+
+# Optional addons for localization
+
+## Shortened chat channels 
+Changes the chat channels from whole words to abbreviations.
 
 <details>
   <summary>Click here to preview the shortened chat channels</summary>
@@ -122,9 +101,8 @@ Changes the chat channels from whole words to abbreviations. Works with any loca
 
 </details>
 
-### Street names removal
-Removes street names from the bottom right corner of the screen under the radar, as they don't really serve any purpose outside of maybe pumpkin hunting during the Halloween event. Works with any localization variant, just make sure to drag and drop it *after* the main localization file set.
-
+## Street names removal
+Removes street names from the bottom right corner of the screen under the radar.
 <details>
   <summary>Click here to preview the street names removal</summary>
   
@@ -132,23 +110,28 @@ Removes street names from the bottom right corner of the screen under the radar,
 
 </details>
 
-### Mission stages only (Vanilla localization)
-This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants. Simply only copy this and follow the rest of the steps for the APB.exe shortcut creation like you would with the full localization.
+## Mission stages only (Vanilla localization)
+This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants.
 
-***You are free to edit this localization as you desire for personal use, however if you wish to build your own and use mine as a base and distribute it publicly, please credit me for making the base for it.***
+>[!IMPORTANT]
+>These addons work with any localization. Make sure to only apply these AFTER you've applied your desired localization otherwise these addons will be overwritten. Even if you only use addons, you still need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field.
 
-# FPS Unlock + DTS + GC
-This does a few things all at once (+/- 32GB RAM):
-- Uncaps your fps to infinite.
+# FPS Unlock + Login Screen + DTS + GC
+This does a bunch of things all at once (+/- 32GB RAM):
+- Uncaps your FPS to infinite.
 - Disabled Texture Streaming (DTS) - Universal FPS boost without any loss of graphics quality.
-- Changes the "Smooth Frame Rate" setting in the in-game Video options to cap your fps at 128 which is the highest you can go without your character randomly sliding. Useful for precision weapons such as the HVR.
-- Garbage Collection (GC) - Additional feature which turns off GC, which will completely eliminate the stutters that occur every 60 seconds.
+- Changes the "Smooth Frame Rate" setting in the in-game Video options to cap your fps at 128 which is the highest you can go without your character sliding.
+- Black Login Screen - Changes the login screen and character select screen to a black background with no music and makes the game load faster.
+- Bloom - Removes all graphical effects of bloom except for the blurry, transparent background when you open your inventory/loadout menu. Keeping Bloom enabled in the settings is recommended.
+- Garbage Collection (GC) Removal - Additional feature which turns off GC, which will completely eliminate the stutters that occur every 60 seconds.
 
 > [!CAUTION]
-> Removing GC will prevent you from using any customization kiosks in the Social district. Swapping between "DTS only" and DTS + GC is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For casual players who only wish to uncap their FPS and gain a performance boost, simply use "DTS only".
+> Using the 'No GC' variant will prevent you from using any customization kiosks in the Social district. Swapping between 'DTS only' and 'DTS + No GC' is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For those who only wish to uncap their FPS and gain a performance boost, simply use 'DTS only'.
+
+> [!NOTE]
+> **If you wish to undo some of the individual changes I've made, please refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) document and edit the settings to your liking.**
 
 # Muzzle Flash + Ragdolls
-Both of these entirely different configs are located within the same file (`DefaultGame.ini`) and so I've added multiple variants to pick from.
 
 ### Muzzle Flash
 Turn off/on the weapon muzzle flash and bullet casings.
@@ -157,10 +140,13 @@ Turn off/on the weapon muzzle flash and bullet casings.
 Either remove all ragdolls or NPC (civilian) ragdolls only. Helps with visibility and could help with performance slightly on some systems.
 
 > [!NOTE]
-> My personal recommendation is to remove NPC ragdolls only and keep player ones. Reason is that if you remove player ragdolls, upon death your camera freezes in place and does not track the player who killed you, making it harder for you to see where they are going and give information to your teammates. This is especially true if they run out of your camera's field of view or run behind an object.
+> My personal recommendation is to remove NPC ragdolls only and keep player ones. Reason is that if you remove player ragdolls, upon death your camera freezes in place and does not track the player who killed you, making it harder for you to see where they are going and give information to your teammates. This is especially true if they run out of your camera's field of view or run behind an object, such as a building.
+
+> [!NOTE]
+> Refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) document if you wish to adjust these to your liking.
 
 # Keybinds
-This new config adds a variety of new easily rebindable keys within the in-game controls settings, while still keeping all the old ones fully intact, allowing you to switch them on the fly. These are unbound by default so once you install this and launch your game, you will have to manually bind them to whatever you wish personally.
+This file adds a variety of new easily rebindable keys within the in-game controls settings, while still keeping all the old ones fully intact, allowing you to switch them on the fly. These are unbound by default so once you install this and launch your game, you will have to manually bind them to whatever you wish personally.
 + Auto-Sprint (Movement) - Bind it to Shift to get the classic auto-sprint like before. Holding Shift + W will make you jog like it did previously.
 + Hold Crouch (Movement) - Added new hold crouch method which prevents you from getting stuck in crouch (highly recommended). The old 'stuckable' method is also still present for those who prefer it but it is now labeled "Crouch (Hold) [Classic]". Simply bind your crouch button to either one.
 + Abandon Mission (Interface) - Allows you to directly abandon missions with a keybind without having to type anything in chat. Button is still there and it *works* but it can't be used anywhere anymore.
@@ -170,27 +156,8 @@ This new config adds a variety of new easily rebindable keys within the in-game 
 + In-game music player volume up/down hotkeys (Music).
 + Camera look up/down hotkeys (Camera).
 
-***Also with this installed, Alt + F4 finally works now, over a decade later. However it doesn't work in the character selection screen for now. But it works pretty much everywhere else.***
-
-# Black Sky
-
-Black sky comes in 4 variants. The "No Weather" variants get rid of the greenish tint and give more color/vibrance to the whole game.
-
-<details>
-  <summary>Click here to see the differences</summary>
-  
-![black sky](https://i.imgur.com/lTxUUt6.png)
-![black sky no weather](https://i.imgur.com/xpJsdPD.png)
-![black sky fullbright](https://i.imgur.com/36PfzHD.png)
-![black sky fullbright no weather](https://i.imgur.com/4777H8X.png)
-
-</details>
-
-# Bloom
-
-If you wish to disable the actual effects of bloom in-game but retain the blurry transparent background in the inventory/loadout menus, simply navigate to `APB Reloaded\Engine\Config\BaseEngine.ini`, find `DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` and add ; in front of it like so: `;DefaultPostProcessName=APBPostEffectMaterials.APBPostEffect_Process` then save the file. I recommend doing this only after you've installed any of the DTS variants as those replace BaseEngine.ini, assuming you wish to use a DTS config (but it is not required for this to work).
-
-Once that's done simply open the game and enable Bloom from the Video > Advanced settings.
+> [!NOTE]
+>Also with this installed, Alt + F4 finally works now, over a decade later. However it doesn't work in the character selection screen for now. But it works pretty much everywhere else.
 
 # Disabling UI elements
 
@@ -200,13 +167,12 @@ You can follow lazer's guide to disabling UI elements [here](https://github.com/
 
 ### Massive thanks to the following:
 + Secrets and the rest of the APB dev team who actively work with us to improve the game both on vanilla level as well as on configs level.
-+ lazer - Audio, Graphics optimizations, Engine Fonts, Localization, Faster UI/White Mission Timer, Texture Streaming, Keybinds
++ lazer - Graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq - Engine Fonts, Localization, General assistance
-+ Esurient - Engine Fonts, Localization, Faster UI/White Mission Timer
-+ mewpri - Black Sky, Keybinds
-+ Kyouki - Stutter Fix, Ambient Sounds, General assistance
-+ ApollyoNite aka Ryderizm - RTW Vegas Sounds
-+ jmilos - Texture Streaming, Keybinds
++ Esurient - Engine Fonts, Localization
++ mewpri - Keybinds
++ Kyouki - No GC/Stutter Fix, General assistance
++ jmilos - Texture Streaming, Keybinds, New hold crouch method, New black login screen method
 + Leefekyn - Localization (killfeed stun icon)
 + Tobii & Dopefish - For placing some of the foundations for modding APB many years ago, before leaving for greener pastures. ([Tobii's APB repository, mostly outdated now.](https://apb.zone/))
 
