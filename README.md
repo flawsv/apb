@@ -49,7 +49,7 @@ Example correct Target field path: <br >
 > Be sure to add a space after the quotations and before the dash, as well as between each launch argument as shown in the examples.
 
 # Features
-+ FPS Unlock + Login Screen + DTS + GC - Multiple game performance-enhancing edits that do not affecting the game's visuals.
++ FPS Unlock + Login Screen + DTS + GC - Multiple game performance-enhancing edits that do not affect the game's visuals.
 + Keybinds - Adds several new keybinds to the in-game controls menu that you can change on the fly including auto sprint and hold crouch.
 + Muzzle Flash + Ragdolls - Muzzle Flash on/off and Ragdolls on/off.
 + Localization - Textual changes to the HUD/UI.
