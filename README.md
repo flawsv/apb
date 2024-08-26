@@ -5,6 +5,9 @@ Many of the edits present in these files are not my own discovery/creation and a
 
 Many things have changed or are no longer allowed post-APB 1.31 'New Horizon' and as such those files are no longer distributed/supported here. Please read everything thoroughly first and if you wish to ask a question or report an issue, feel free to post about it on my [discord server](https://discord.com/invite/MeMDVmj).
 
+> [!IMPORTANT]
+> **It is super strongly recommended that you only download the newest and latest release version as I ensure those are always safe and most functional with the most amount of features. I take no responsibility for damages in case you download and use an old version. Those are only there for archiving purposes.**
+
 # Setup & Basics
 First, you need to do the following steps regardless of which configs you're going to use:
 
