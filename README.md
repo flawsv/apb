@@ -131,6 +131,9 @@ This does a bunch of things all at once (+/- 32GB RAM):
 > [!CAUTION]
 > Using the 'No GC' variant will prevent you from using any customization kiosks in the Social district. Swapping between 'DTS only' and 'DTS + No GC' is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For those who only wish to uncap their FPS and gain a performance boost, simply use 'DTS only'.
 
+> [!CAUTION]
+> Using this will prevent you from creating new characters due to the new login screen method breaking the character creator screen. The old method is no longer allowed and there is no way to solve this issue while using this method. As such, if you need to make a new character refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) and revert the black login screen (listed at the very top of the document). I apologise for the inconvenience but there is no easier way to do it for now.
+
 > [!NOTE]
 > **If you wish to undo some of the individual changes I've made, please refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) document and edit the settings to your liking.**
 
