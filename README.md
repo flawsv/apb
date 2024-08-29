@@ -120,19 +120,19 @@ This is for those who want to keep the game's vanilla localization but want to s
 >These addons work with any localization. Make sure to only apply these AFTER you've applied your desired localization otherwise these addons will be overwritten. Even if you only use addons, you still need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field.
 
 # FPS Unlock + Login Screen + DTS + GC
-This does a bunch of things all at once (+/- 32GB RAM):
+This does several things all at once (+/- 32GB RAM):
 - Uncaps your FPS to infinite.
 - Disabled Texture Streaming (DTS) - Universal FPS boost without any loss of graphics quality.
 - Changes the "Smooth Frame Rate" setting in the in-game Video options to cap your fps at 128 which is the highest you can go without your character sliding.
-- Black Login Screen - Changes the login screen and character select screen to a black background with no music and makes the game load faster.
 - Bloom - Removes all graphical effects of bloom except for the blurry, transparent background when you open your inventory/loadout menu. Keeping Bloom enabled in the settings is recommended.
-- Garbage Collection (GC) Removal - Additional feature which turns off GC, which will completely eliminate the stutters that occur every 60 seconds.
+- Garbage Collection (GC) Removal<sup>1</sup> - Additional feature which turns off GC, which will completely eliminate the stutters that occur every 60 seconds.
+- Black Login Screen<sup>2</sup> - Changes the login screen and character select screen to a black background with no music and makes the game load faster.
 
 > [!CAUTION]
-> Using the 'No GC' variant will prevent you from using any customization kiosks in the Social district. Swapping between 'DTS only' and 'DTS + No GC' is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For those who only wish to uncap their FPS and gain a performance boost, simply use 'DTS only'.
+> **(1)** Using the 'No GC' variant will prevent you from using any customization kiosks in the Social district. Swapping between 'DTS only' and 'DTS + No GC' is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For those who only wish to uncap their FPS and gain a performance boost, simply use 'DTS only'.
 
 > [!CAUTION]
-> Using this will prevent you from creating new characters due to the new login screen method breaking the character creator screen. The old method is no longer allowed and there is no way to solve this issue while using this method. As such, if you need to make a new character refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) and revert the black login screen (listed at the very top of the document). I apologise for the inconvenience but there is no easier way to do it for now.
+> **(2)** Using this will prevent you from creating new characters due to the new login screen method breaking the character creator screen. The old method is no longer allowed and there is no way to solve this issue while using this method. As such, if you need to make a new character refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) and revert the black login screen (listed at the very top of the document). I apologise for the inconvenience but there is no easier way to do it for now.
 
 > [!NOTE]
 > **If you wish to undo some of the individual changes I've made, please refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) document and edit the settings to your liking.**
