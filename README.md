@@ -17,7 +17,7 @@ First, you need to do the following steps regardless of which configs you're goi
 From now on you must launch your game through this new desktop shortcut in order for the configs to work.
 
 > [!IMPORTANT]
-> Whenever a game update comes out you must open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut.
+> Whenever a game update comes out you must open the default APB launcher, let it update, then close the launcher, reinstall your desired configs and launch the game from your desktop shortcut. Do NOT create new APB shortcuts every time there is an update, it is unnecessary.
 
 > [!NOTE]
 > In order to revert everything back to vanilla and start over, open the default APB launcher, click Options -> Repair and let it finish. Once that is done you may close the launcher and start over with modding your game.
