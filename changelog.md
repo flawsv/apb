@@ -1,3 +1,17 @@
+## 2.2 - 17.01.2025
+
+- Various localization updates including mission stages (I recommend that you update it).
+- Added black and vanilla login screen variants due to the new character creation issue with black login screen (check [readme](https://github.com/flawsv/apb?tab=readme-ov-file#fps-unlock--login-screen--dts--gc))
+- Misc small fixes.
+
+
+
+## 2.1 - 08.01.2025
+
+- Updated all localization to reflect the mission timer changes (credit to @lvzxr)
+
+
+
 ## 2.0 - 26.08.2024
 
 - Added [file changes breakdown instructions](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) to the github repository so users can easily turn features on/off with simple ini file edits.
