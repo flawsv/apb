@@ -1,3 +1,9 @@
+## 2.3 - 19.01.2025
+
+- The cross-district matchmaking district move pop-up should now be fixed as it was broken in v2.2 (localization).
+
+
+
 ## 2.2 - 17.01.2025
 
 - Various localization updates including mission stages (I recommend that you update it).
