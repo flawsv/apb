@@ -54,7 +54,6 @@ Example correct Target field path: <br >
 + Muzzle Flash + Ragdolls - Muzzle Flash on/off and Ragdolls on/off.
 + Localization - Textual changes to the HUD/UI.
 + Graphics - Visual changes/optimizations and visibility improvements.
-+ Car Music Removal - This should prevent you from hearing music coming from other players' vehicles in most instances.
 
 More details regarding each of these further down.
 
@@ -172,7 +171,7 @@ You can follow lazer's guide to disabling UI elements [here](https://github.com/
 # Credits, Links and Special Thanks
 
 ### Massive thanks to the following:
-+ Secrets and the rest of the APB dev team who actively work with us to improve the game both on vanilla level as well as on configs level.
++ The APB dev team who've actively worked with us to improve the game both on vanilla level as well as on configs level.
 + lazer - Graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq - Engine Fonts, Localization, General assistance
 + Esurient - Engine Fonts, Localization
