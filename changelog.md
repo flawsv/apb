@@ -1,3 +1,16 @@
+## 2.5 - 21.05.2025
+
+- Removed "Car Music Removal" as its not allowed anymore.
+
+
+
+## 2.4 - 02.05.2025
+
+- Changed the grey color in the greyscale and engine font greyscale localizations to the new darker grey color (Black_Dark) which was introduced to the game a few months ago. It brings more contrast to the killfeed, making it easier to tell apart enemies from teammates.
+![Screenshot_1](https://github.com/user-attachments/assets/21a701a1-da6c-4093-b00c-5d4b723c38d4)<br/>(Screenshot taken at in-game brightness 5)
+
+
+
 ## 2.3 - 19.01.2025
 
 - The cross-district matchmaking district move pop-up should now be fixed as it was broken in v2.2 (localization).
