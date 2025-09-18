@@ -1,12 +1,16 @@
 # Preface
-These modified files are all safe and approved directly by Little Orbit staff and will not get your account suspended. If that ever changes the config will be updated to reflect that but keep in mind that I take no responsibility for any harm caused to your account, your game or your software/hardware as a result of using these files. Modding live service games is still on a ***'use at your own risk'*** basis.
+The modified files in this config are all safe to use and have been approved directly by Little Orbit staff and will not get your account suspended — if that ever changes the config will be updated to reflect it. That being said — keep in mind that I take no responsibility for any harm caused to your account, your game, your software/hardware or any other negative consequences as a result of using these files. Modding live service games is on a ***'use at your own risk'*** basis.
 
-Many of the edits present in these files are not my own discovery/creation and as such credit is given where credit is due at the bottom of this document. This config is meant to serve as a one stop shop for everyone who wishes to mod APB within the bounds of the Little Orbit Terms of Service without fear of suspension or other negative outcomes.
+Many of the edits present in these files are not my own discovery/creation and as such credit is given where credit is due at the bottom of this page. This config is meant to serve as a one stop shop for everyone who wishes to mod APB within the boundaries of the Little Orbit Terms of Service without fear of suspension or other negative outcomes.
 
 Many things have changed or are no longer allowed post-APB 1.31 'New Horizon' and as such those files are no longer distributed/supported here. Please read everything thoroughly first and if you wish to ask a question or report an issue, feel free to post about it on my [discord server](https://discord.com/invite/MeMDVmj).
 
 > [!IMPORTANT]
 > **It is super strongly recommended that you only download the newest and latest release version as I ensure those are always safe and most functional with the most amount of features. I take no responsibility for damages in case you download and use an old version. Those are only there for archiving purposes.**
+
+> [!NOTE]
+> ### Regarding the 'incorrect' usage of GitHub
+> I am fully aware that the way I upload my config to GitHub is technically incorrect but the reason I made the choice to keep it like this is to make it less confusing for the average, everyday user who might not be familiar with all the modding/config and github ('nerd') stuff. For the average person who might be new to modding, it's far easier to simply download a zip file that has all the files they need instead of having to navigate folders on GitHub to figure out which files they need to download, how to download them and so on. This keeps it more accessible and easier for just about anyone to download and use the files without much stress.
 
 # Setup & Basics
 First, you need to do the following steps regardless of which configs you're going to use:
@@ -32,7 +36,7 @@ The only config that requires one additional step is localization because you ne
 # Launch arguments
 + `-language=1031` - Sets game to load with custom localization (required for localization).
 + `-nomovies` / `-nomoviesstartup` - Removes loading screens.
-+ `-nosplash` - Removes initial splash screen upon boot (SARD logo cannot be removed).
++ `-nosplash` - Removes initial splash screen upon boot (GFAC logo cannot be removed).
 + `-nosteam` - Disables Steam integration, including Steam auto-login.
 
 <details>
@@ -172,14 +176,14 @@ You can follow lazer's guide to disabling UI elements [here](https://github.com/
 
 ### Massive thanks to the following:
 + The APB dev team who've actively worked with us to improve the game both on vanilla level as well as on configs level.
-+ lazer - Graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
++ lazer - Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq - Engine Fonts, Localization, General assistance
 + Esurient - Engine Fonts, Localization
 + mewpri - Keybinds
 + Kyouki - No GC/Stutter Fix, General assistance
 + jmilos - Texture Streaming, Keybinds, New hold crouch method, New black login screen method
 + Leefekyn - Localization (killfeed stun icon)
-+ Tobii & Dopefish - For placing some of the foundations for modding APB many years ago, before leaving for greener pastures. ([Tobii's APB repository, mostly outdated now.](https://apb.zone/))
++ Tobii & Dopefish - For placing some of the foundations for modding APB many years ago, before leaving for greener pastures.
 
 You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227).
 
