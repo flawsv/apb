@@ -208,7 +208,7 @@ You can follow lazer's guide to disabling UI elements [here](https://github.com/
 
 # PSA for AMD GPU users
 
-If you own an AMD GPU and are getting weird stutters or freezes in APB, you'll need to go into your BIOS settings and turn off Re-size/Resizable bar and 4G decoding. You can google more about how to do this if you're unfamiliar. 
+If you're running an AMD GPU and are getting weird stutters or freezes in APB, you'll need to go into your BIOS settings and turn off Re-size/Resizable bar and 4G decoding. You can google more about how to do this if you're unfamiliar. 
 
 This is a known issue to the APB devs.
 
