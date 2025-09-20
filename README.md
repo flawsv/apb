@@ -206,6 +206,12 @@ There is only one minor issue with this change and thats the Joker Tickets and A
 
 You can follow lazer's guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
 
+# PSA for AMD GPU users
+
+If you own an AMD GPU and are getting weird stutters or freezes in APB, you'll need to go into your BIOS settings and turn off Re-size/Resizable bar and 4G decoding. You can google more about how to do this if you're unfamiliar. 
+
+This is a known issue to the APB devs.
+
 # Credits, Links and Special Thanks
 
 ### Massive thanks to the following:
