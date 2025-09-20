@@ -1,3 +1,19 @@
+## 2.7 - 21.09.2025
+
+- Added "Transparent UI".
+- Added 3 new localization addons: "Weapon stats", "Vehicle stats" and "Equipment+stages in mission names".
+- Increased visibility of OPGL/Osmaw and grenade smoke trails in the Minimal and Medium graphics presets (ParticleMaxWorldSpaceArea=10000.0 -> ParticleMaxWorldSpaceArea=400000.0).
+- Improved visibility through metal fences in all graphics presets (TEXCAT_Prop from 128 -> 512).
+- Re-enabled Bloom to work by default if you enable it in-game as it was previously disabled in the FPS+DTS files.
+
+
+
+## 2.6 - 31.07.2025
+
+- Added support for GFAC and the Leaderboards update (Anniversary patch). Mandatory as the older versions of the config will crash the game upon opening the newly added in-game leaderboards.
+
+
+
 ## 2.5 - 21.05.2025
 
 - Removed "Car Music Removal" as its not allowed anymore.
