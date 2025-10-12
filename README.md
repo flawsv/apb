@@ -223,7 +223,7 @@ Here's a list of possible fixes for any GFAC related errors and issues. This is 
 + Uninstall "GFAC Anti-Cheat System" from the Windows Control Panel then navigate to APB Reloaded\TPI\GFAC and launch "GFAC_Installer.exe".
 + Uninstall APB and GFAC completely from your computer. Wipe both the GFAC and the APB Reloaded folders clean so there is no trace of them and install everything fresh.
 
-If still none of this works you might have to contact Frosi LO (frosilo) directly in the official Little Orbit discord server -> https://discord.gg/littleorbit
+If still none of this works you might have to contact Frosi LO (frosilo) directly in the [official Little Orbit discord server](https://discord.gg/littleorbit).
 
 # Credits, Links and Special Thanks
 
