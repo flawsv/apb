@@ -212,6 +212,19 @@ If you're running an AMD GPU and are getting weird stutters or freezes in APB, y
 
 This is a known issue to the APB devs.
 
+# GamersFirst Anti-Cheat (GFAC) Error solutions
+
+Here's a list of possible fixes for any GFAC related errors and issues. This is not a step-by-step guide but a list of separate possible fixes for GFAC errors.
+
++ Restart the game.
++ Restart your computer.
++ Open the APB Launcher/Updater, click Options and then Repair.
++ Navigate to C:\Program Files\GFAC and launch Updater.exe (as administrator).
++ Uninstall "GFAC Anti-Cheat System" from the Windows Control Panel then navigate to APB Reloaded\TPI\GFAC and launch "GFAC_Installer.exe".
++ Uninstall APB and GFAC completely from your computer. Wipe both the GFAC and the APB Reloaded folders clean so there is no trace of them and install everything fresh.
+
+If still none of this works you might have to contact Frosi LO (frosilo) directly in the official Little Orbit discord server -> https://discord.gg/littleorbit
+
 # Credits, Links and Special Thanks
 
 ### Massive thanks to the following:
