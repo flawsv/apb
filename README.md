@@ -57,7 +57,7 @@ Example correct Target field path: <br >
 # Features
 + FPS Unlock + Login Screen + DTS + GC — Multiple game performance-enhancing edits that do not affect the game's visuals.
 + Keybinds — Adds several new keybinds to the in-game controls menu that you can change on the fly including auto sprint and hold crouch.
-+ Muzzle Flash — Ragdolls - Muzzle Flash on/off and Ragdolls on/off.
++ Muzzle Flash + Ragdolls — Muzzle Flash on/off and Ragdolls on/off.
 + Localization — Textual changes to the HUD/UI.
 + Graphics — Visual changes/optimizations and visibility improvements.
 + Transparent UI — Makes the entire UI slightly transparent and also gets rid of the black background when you are in the loadout menu so you can see what is going on around you while you're swapping loadouts.
