@@ -1,3 +1,10 @@
+## 2.8 - 20.12.2025
+
+- Fixed an issue where the text in the Streamer settings menu would break when using the "Keybinds" config. This is a must-download update if you plan to use the new Streamer mode and are also using my Keybinds.
+- Minor localization fixes.
+
+
+
 ## 2.7 - 21.09.2025
 
 - Added "Transparent UI".
