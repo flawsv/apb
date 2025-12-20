@@ -238,7 +238,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 + Leefekyn — Localization (killfeed stun icon)
 + Tobii & Dopefish — For placing some of the foundations for modding APB many years ago, before leaving for greener pastures.
 
-You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as find my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227).
+You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as check out my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227).
 
 You can download the Advanced APB Launcher from Little Orbit's official link [here](https://media.gamersfirst.com/gamersmedia/apb/Advanced_APB_Launcher.zip).
 
