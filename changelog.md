@@ -1,3 +1,9 @@
+## 2.9 - 31.01.2026
+
+- Added the pool of possible missions for the 2 newest contacts in their descriptions. The numbers in brackets indicate how many players are required to spin up each of the missions. Courtesy of @lvzxr.
+
+
+
 ## 2.8 - 20.12.2025
 
 - Fixed an issue where the text in the Streamer settings menu would break when using the "Keybinds" config. This is a must-download update if you plan to use the new Streamer mode and are also using my Keybinds.
