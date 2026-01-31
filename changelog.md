@@ -1,6 +1,6 @@
 ## 2.9 - 31.01.2026
 
-- Added the pool of possible missions for the 2 newest contacts in their descriptions. The numbers in brackets indicate how many players are required to spin up each of the missions. Courtesy of @lvzxr.
+- Added the pool of possible missions for the 2 newest contacts in their descriptions across all localizations. The numbers in brackets indicate how many players are required to spin up each of the missions. Courtesy of @lvzxr.
 
 
 
