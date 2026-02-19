@@ -138,6 +138,16 @@ Changes mission titles to show the equipment required for the mission as well as
 ## Mission stages only (Vanilla localization)
 This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants.
 
+## Weapon categories with icons
+Adds weapon icons in the weapon switch categories dropdown menu. Supports both Standard font as well as Engine font or no text at all.
+
+<details>
+  <summary>Click here to preview the Weapon categories with icons</summary>
+
+![weaponicons](https://i.imgur.com/wmPXuzh.png)
+  
+</details>
+
 >[!IMPORTANT]
 >These addons work with any localization. Make sure to only apply these AFTER you've applied your desired localization otherwise these addons will be overwritten. Even if you only use addons, you still need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field.
 
@@ -229,17 +239,16 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 
 ### Massive thanks to the following:
 + The APB dev team who've actively worked with us to improve the game both on vanilla level as well as on configs level.
-+ lazer — Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
++ [lazer](https://github.com/lvzxr/apb-reloaded) — Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq — Engine Fonts, Localization, General assistance
 + Esurient — Engine Fonts, Localization
-+ mewpri — Keybinds, Localization (Weapon & Vehicle stats); Check out his localization generator which was used to create the weapon and vehicle stats [here](https://mew.re/config/).
++ [mewpri](https://mew.re/config/) — Keybinds, Localization (Weapon & Vehicle stats)
 + Kyouki — No GC/Stutter Fix, General assistance
 + jmilos — Texture Streaming, Keybinds, New hold crouch method, New black login screen method
++ [AltShadow](https://github.com/altshadow69/apb-minimized) - Weapon categories with icons
 + Leefekyn — Localization (killfeed stun icon)
 + Tobii & Dopefish — For placing some of the foundations for modding APB many years ago, before leaving for greener pastures.
 
 You can find me on [Twitch](https://www.twitch.tv/flvws), [YouTube](https://www.youtube.com/c/FlawsAPB) and [Discord](https://discord.com/invite/MeMDVmj), as well as check out my [APB Beginner's Guide](https://steamcommunity.com/sharedfiles/filedetails/?id=1445306227).
 
 You can download the Advanced APB Launcher from Little Orbit's official link [here](https://media.gamersfirst.com/gamersmedia/apb/Advanced_APB_Launcher.zip).
-
-You can also find lazer's config on his [GitHub Page](https://github.com/lvzxr/apb-reloaded).
