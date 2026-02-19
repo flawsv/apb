@@ -1,3 +1,10 @@
+## 2.9.2 - 19.02.2026
+
+- Localization updates.
+- Added "Weapon categories with icons" to the Localization addons with several variants (Colored text, white text, no text). Check main page readme for previews. Credit: [AltShadow](https://github.com/altshadow69/apb-minimized)
+
+
+
 ## 2.9.1 - 09.02.2026
 
 - Fixed a crash when interacting with the new Vault kiosk in the Social district.
