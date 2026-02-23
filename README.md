@@ -214,7 +214,7 @@ There is only one minor issue with this change and thats the Joker Tickets and A
 
 # Disabling UI elements
 
-You can follow lazer's guide to disabling UI elements [here](https://github.com/lvzxr/apb-reloaded/blob/main/UI.md).
+Disabling UI elements is no longer possible thanks to a patch made by Little Orbit which disables that functionality.
 
 # PSA for AMD GPU users
 
