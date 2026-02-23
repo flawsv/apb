@@ -216,6 +216,10 @@ There is only one minor issue with this change and thats the Joker Tickets and A
 
 Disabling UI elements is no longer possible thanks to a patch made by Little Orbit which disables that functionality.
 
+This is the official statement provided by the devs on the Little Orbit discord server about the change:
+
+> *Dev Comment: We're making this change so whenever we add new UI Elements we don't have to spend time and resources troubleshooting players with outdated files that they drag and drop even after updating as part of their config causing their games to crash. UI Elements are now stored in a different way which means that they can no longer be outdated or disabled via configs.*
+
 # PSA for AMD GPU users
 
 If you're running an AMD GPU and are getting weird stutters or freezes in APB, you'll need to go into your BIOS settings and turn off Re-size/Resizable bar and 4G decoding. You can google more about how to do this if you're unfamiliar. 
