@@ -1,3 +1,8 @@
+## 2.9.3 - 21.04.2026
+- Minor localization updates.
+
+
+
 ## 2.9.2 - 19.02.2026
 
 - Localization updates.
