@@ -243,7 +243,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 
 ### Massive thanks to the following:
 + The APB dev team who've actively worked with us to improve the game both on vanilla level as well as on configs level.
-+ [lazer](https://github.com/lvzxr/apb-reloaded) — Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
++ [lazer](https://github.com/lvzxr/apb-cfg-loader) — Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq — Engine Fonts, Localization, General assistance
 + Esurient — Engine Fonts, Localization
 + [mewpri](https://mew.re/config/) — Keybinds, Localization (Weapon & Vehicle stats)
