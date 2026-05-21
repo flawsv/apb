@@ -1,3 +1,9 @@
+## 2.9.4 - 21.05.2026
+- Fixed the new "Show Sprinting Center-Dot" toggle setting in the in-game options showing incorrectly
+- Updated the weapon stats and vehicle stats localization addons. Now includes "EMP Vulnerability" on cars; credit to writch
+
+
+
 ## 2.9.3 - 21.04.2026
 - Minor localization updates.
 
