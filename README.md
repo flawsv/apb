@@ -247,6 +247,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 + rooq — Engine Fonts, Localization, General assistance
 + Esurient — Engine Fonts, Localization
 + [mewpri](https://mew.re/config/) — Keybinds, Localization (Weapon & Vehicle stats)
++ writch — Updated Weapon & Vehicle stats originally created by mewpri
 + Kyouki — No GC/Stutter Fix, General assistance
 + jmilos — Texture Streaming, Keybinds, New hold crouch method, New black login screen method
 + [AltShadow](https://github.com/altshadow69/apb-minimized) - Weapon categories with icons
