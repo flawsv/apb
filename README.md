@@ -214,7 +214,7 @@ There is only one minor issue with this change and thats the Joker Tickets and A
 
 # Disabling UI elements
 
-Disabling UI elements is no longer possible thanks to a patch made by Little Orbit which disables that functionality.
+Disabling UI elements is no longer possible due to a patch made by Little Orbit which disables that functionality.
 
 This is the official statement provided by the devs on the Little Orbit discord server about the change:
 
