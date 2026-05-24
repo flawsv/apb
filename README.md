@@ -220,6 +220,12 @@ This is the official statement provided by the devs on the Little Orbit discord 
 
 > *Dev Comment: We're making this change so whenever we add new UI Elements we don't have to spend time and resources troubleshooting players with outdated files that they drag and drop even after updating as part of their config causing their games to crash. UI Elements are now stored in a different way which means that they can no longer be outdated or disabled via configs.*
 
+# Black Sky / Time of Day manipulation
+
+The black sky config required the modification of files which are now prohibited from being modified and no other alternative exists for dealing with the bright sky issue. As such the black sky config files have been completely removed from the config. As it stands right now, there is no known legal method of having black sky or a custom time of day in-game. 
+
+Those methods have been removed by the devs and/or are bannable.
+
 # PSA for AMD GPU users
 
 If you're running an AMD GPU and are getting weird stutters or freezes in APB, you'll need to go into your BIOS settings and turn off Re-size/Resizable bar and 4G decoding. You can google more about how to do this if you're unfamiliar. 
