@@ -241,7 +241,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 
 # Credits, Links and Special Thanks
 
-### Massive thanks to the following:
+### Massive thanks to the following for their various contributions:
 + The APB dev team who've actively worked with us to improve the game both on vanilla level as well as on configs level.
 + [lazer](https://github.com/lvzxr/apb-cfg-loader) — Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq — Engine Fonts, Localization, General assistance
@@ -250,7 +250,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 + [writch](https://github.com/writchcraft/apb) — Updated Weapon & Vehicle stats originally created by mewpri
 + Kyouki — No GC/Stutter Fix, General assistance
 + jmilos — Texture Streaming, Keybinds, New hold crouch method, New black login screen method
-+ [AltShadow](https://github.com/altshadow69/apb-minimized) - Weapon categories with icons
++ [AltShadow](https://github.com/altshadow69/apb-minimized) — Weapon categories with icons
 + Leefekyn — Localization (killfeed stun icon)
 + Tobii & Dopefish — For placing some of the foundations for modding APB many years ago, before leaving for greener pastures.
 
