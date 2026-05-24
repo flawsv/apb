@@ -208,7 +208,7 @@ This makes the entire UI slightly transparent across the board and also gets rid
 
 </details>
 
-There is only one minor issue with this change and thats the Joker Tickets and APB$ icons disappearing in the inventory menu
+There is only one minor issue with this change and thats the Joker Tickets and APB$ icons disappearing in the inventory menu.
 
 ![missing icons](https://i.imgur.com/w8LlXkb.png)
 
