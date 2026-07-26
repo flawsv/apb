@@ -144,7 +144,7 @@ Adds weapon icons in the weapon switch categories dropdown menu. Supports both S
 <details>
   <summary>Click here to preview the Weapon categories with icons</summary>
 
-![weaponicons](https://i.imgur.com/tPOTYM4.png)
+![weaponicons](https://i.imgur.com/lfknvzU.png)
   
 </details>
 
