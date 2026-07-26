@@ -1,4 +1,4 @@
-### 2.9.8 - 26.07.2026
+## 2.9.8 - 26.07.2026
 - Localization updates across all variants (mission stages). Update recommended. Credit: @lvzxr 
 - Added "Small Icons" to the "Weapon categories with icons" localization addon with several variants. Previews are available in the main readme file. Credit: @writchcraft and @altshadow69
 - Added a centered variant for the big icons no text variant, just for fun in case anyone likes it. Preview in readme.
@@ -6,7 +6,7 @@
 
 
 
-### 2.9.7 - 01.07.2026
+## 2.9.7 - 01.07.2026
 - An additional localization update across all variants. Credit: @lvzxr 
 
 
