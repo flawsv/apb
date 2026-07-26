@@ -1,3 +1,22 @@
+### 2.9.8 - 26.07.2026
+- Localization updates across all variants (mission stages). Update recommended. Credit: @lvzxr 
+- Added "Small Icons" to the "Weapon categories with icons" localization addon with several variants. Previews are available in the main readme file. Credit: @writchcraft and @altshadow69
+- Added a centered variant for the big icons no text variant, just for fun in case anyone likes it. Preview in readme.
+- Updated the Assault Rifles category icon in the big icons variant to be the N-TEC 5 Stock instead of the standard N-TEC 5. Credit: @altshadow69
+
+
+
+### 2.9.7 - 01.07.2026
+- An additional localization update across all variants. Credit: @lvzxr 
+
+
+
+## 2.9.6 - 26.06.2026
+- Several localization updates across all variants. Credit: @lvzxr 
+- Added "HUD Group Status Black out" in Localization addons. Doesn't work as intended if used alongside "Transparent UI" but you can try and see if you like it. Credit: [altshadow69](https://github.com/altshadow69/apb-minimized)
+
+
+
 ## 2.9.5 - 24.05.2026
 - Fixed the "MATCHING..." text when you ready up across all localization variants. Credit: Esurient
 - Added lines for the Vault across all localization. Credit: @lvzxr
