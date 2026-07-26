@@ -1,25 +1,25 @@
 ## 2.9.8 - 26.07.2026
-- Localization updates across all variants (mission stages). Update recommended. Credit: @lvzxr 
-- Added "Small Icons" to the "Weapon categories with icons" localization addon with several variants. Previews are available in the main readme file. Credit: @writchcraft and @altshadow69
+- Localization updates across all variants (mission stages). Update recommended. Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
+- Added "Small Icons" to the "Weapon categories with icons" localization addon with several variants. Previews are available in the main readme file. Credit: [writch](https://github.com/writchcraft/apb) and [altshadow69](https://github.com/altshadow69/apb-minimized)
 - Added a centered variant for the big icons no text variant, just for fun in case anyone likes it. Preview in readme.
-- Updated the Assault Rifles category icon in the big icons variant to be the N-TEC 5 Stock instead of the standard N-TEC 5. Credit: @altshadow69
+- Updated the Assault Rifles category icon in the big icons variant to be the N-TEC 5 Stock instead of the standard N-TEC 5. Credit: [altshadow69](https://github.com/altshadow69/apb-minimized)
 
 
 
 ## 2.9.7 - 01.07.2026
-- An additional localization update across all variants. Credit: @lvzxr 
+- An additional localization update across all variants. Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
 
 
 
 ## 2.9.6 - 26.06.2026
-- Several localization updates across all variants. Credit: @lvzxr 
+- Several localization updates across all variants. Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
 - Added "HUD Group Status Black out" in Localization addons. Doesn't work as intended if used alongside "Transparent UI" but you can try and see if you like it. Credit: [altshadow69](https://github.com/altshadow69/apb-minimized)
 
 
 
 ## 2.9.5 - 24.05.2026
 - Fixed the "MATCHING..." text when you ready up across all localization variants. Credit: Esurient
-- Added lines for the Vault across all localization. Credit: @lvzxr
+- Added lines for the Vault across all localization. Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
 
 
 
@@ -37,7 +37,7 @@
 ## 2.9.2 - 19.02.2026
 
 - Localization updates.
-- Added "Weapon categories with icons" to the Localization addons with several variants (Colored text, white text, no text). Check main page readme for previews. Credit: [AltShadow](https://github.com/altshadow69/apb-minimized)
+- Added "Weapon categories with icons" to the Localization addons with several variants (Colored text, white text, no text). Check main page readme for previews. Credit: [altshadow69](https://github.com/altshadow69/apb-minimized)
 
 
 
@@ -49,7 +49,7 @@
 
 ## 2.9 - 31.01.2026
 
-- Added the pool of possible missions for the 2 newest contacts in their descriptions across all localizations. The numbers in brackets indicate how many players are required to spin up each of the missions. Courtesy of @lvzxr.
+- Added the pool of possible missions for the 2 newest contacts in their descriptions across all localizations. The numbers in brackets indicate how many players are required to spin up each of the missions. Courtesy of [lazer](https://github.com/lvzxr/apb-cfg-loader).
 
 
 
@@ -105,7 +105,7 @@
 
 ## 2.1 - 08.01.2025
 
-- Updated all localization to reflect the mission timer changes (credit to @lvzxr)
+- Updated all localization to reflect the mission timer changes (credit to [lazer](https://github.com/lvzxr/apb-cfg-loader))
 
 
 
