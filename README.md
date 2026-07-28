@@ -148,6 +148,16 @@ Adds weapon icons in the weapon switch categories dropdown menu. Supports both S
   
 </details>
 
+## HUD Group Status Black out
+Does what is shown in the preview below. Unfortunately it doesn't work as intended when used together with "Transparent UI" because that applies transparency to every element separately but its still worth a try in case you like it.
+
+<details>
+  <summary>Click here to preview the Group Status Black out</summary>
+
+![groupblackout](https://i.imgur.com/iGzQQkf.png)
+
+</details>
+
 >[!IMPORTANT]
 >These addons work with any localization. Make sure to only apply these AFTER you've applied your desired localization otherwise these addons will be overwritten. Even if you only use addons, you still need to add the `-language=1031` launch argument to your APB.exe desktop shortcut's `Target` field.
 
