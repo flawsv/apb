@@ -10,10 +10,6 @@ Many things have changed or are no longer allowed post-APB 1.31 'New Horizon' an
 > [!IMPORTANT]
 > **It is super strongly recommended that you only download the newest and latest release version as I ensure those are always safe and most functional with the most amount of features. I take no responsibility for damages in case you download and use an old version. Those are only there for archiving purposes.**
 
-> [!NOTE]
-> ### Regarding the 'incorrect' usage of GitHub
-> I am fully aware that the way I upload my config to GitHub is technically incorrect but the reason I made the choice to keep it like this is to make it less confusing for the average, everyday user who might not be familiar with all the modding/config and github ('nerd') stuff. For the average person who might be new to modding, it's far easier to simply download a zip file that has all the files they need instead of having to navigate folders on GitHub to figure out which files they need to download, how to download them and so on. This keeps it more accessible and easier for just about anyone to download and use the files without much stress.
-
 # Setup & Basics
 First, you need to do the following steps regardless of which configs you're going to use:
 
