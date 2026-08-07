@@ -214,7 +214,7 @@ This makes the entire UI slightly transparent across the board and also gets rid
 
 </details>
 
-There is only one minor issue with this change and thats the Joker Tickets and APB$ icons disappearing in the inventory menu.
+There is only one minor issue with this change and thats the Joker Tickets and APB$ icons disappearing in the inventory menu. **However, there is now a fix for this which is in the localization files and not in the Transparent UI file itself. If you use any of my localization variants, the APB$ and JT icons will not disappear whilst using transparent UI.**
 
 ![missing icons](https://i.imgur.com/w8LlXkb.png)
 
@@ -254,7 +254,6 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 # Credits, Links and Special Thanks
 
 ### Massive thanks to the following for their various contributions:
-+ The APB dev team who've actively worked with us to improve the game both on vanilla level as well as on configs level.
 + [lazer](https://github.com/lvzxr/apb-cfg-loader) — Additional graphics optimizations, Engine Fonts, Localization, Texture Streaming, Keybinds
 + rooq — Engine Fonts, Localization, General assistance
 + Esurient — Engine Fonts, Localization
@@ -262,7 +261,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 + [writch](https://github.com/writchcraft/apb) — Updated Weapon & Vehicle stats originally created by mewpri
 + Kyouki — No GC/Stutter Fix, General assistance
 + jmilos — Texture Streaming, Keybinds, New hold crouch method, New black login screen method
-+ [AltShadow](https://github.com/altshadow69/apb-minimized) — Weapon categories with icons
++ [AltShadow](https://github.com/altshadow69/apb-minimized) — Weapon categories with icons, APB$ and JT icons fix for Transparent UI
 + Leefekyn — Localization (killfeed stun icon)
 + Tobii & Dopefish — For placing some of the foundations for modding APB many years ago, before leaving for greener pastures.
 
