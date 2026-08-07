@@ -1,3 +1,8 @@
+## 2.9.9 - 07.08.2026
+- Added a fix to all localization variants for the transparent APB$ and Joker Ticket icons in the inventory UI when using "Transparent UI". This brings those icons back while using that config. This fix only works if you are using any of my localization variants as it is a fix in localization, not within the transparent UI file itself. If you are using transparent UI as well as my localization, this is a recommended update. Credit: [@altshadow69](https://github.com/altshadow69/apb-minimized)
+
+
+
 ## 2.9.8 - 26.07.2026
 - Localization updates across all variants (mission stages). Update recommended. Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
 - Added "Small Icons" to the "Weapon categories with icons" localization addon with several variants. Previews are available in the main readme file. Credit: [writch](https://github.com/writchcraft/apb) and [altshadow69](https://github.com/altshadow69/apb-minimized)
