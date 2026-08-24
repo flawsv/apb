@@ -230,7 +230,7 @@ This is the official statement provided by the devs on the Little Orbit discord 
 
 Since there is no way of customizing your crosshair or putting a persistent dot in the center of your screen at all times on APB, the only way to do that is through third party software. The update which added a dot which appears while sprinting doesn't really help because it disappears the moment you stop sprinting and the full crosshair appears which defeats the whole purpose of the center dot. 
 
-The issue is that LO/GFAC is picky about what you're allowed to use but the one software that's been allowed for a long time now and still is as of writing this is [HudSight](https://hudsight.com/) (or [the Steam version](https://store.steampowered.com/app/1477830/HudSight__crosshair_overlay/)). It will cost you a single time payment of $7 for a lifetime license and it works for most games so its generally well worth it if you like having persistent dots/custom crosshairs across all of your shooter games.
+The issue is that LO is picky about what you're allowed to use but the one software that's been allowed for a long time now and still is as of writing this is [HudSight](https://hudsight.com/) (or [the Steam version](https://store.steampowered.com/app/1477830/HudSight__crosshair_overlay/)). It will cost you a single time payment of $7 for a lifetime license and it works for most games so its generally well worth it if you like having persistent dots/custom crosshairs across all of your shooter games.
 
 This software simply acts as an overlay over the game itself and does not directly interact with the game's memory, therefore the crosshair will always be completely static. But you can make your own, import it into the software and then use it across any game.
 
