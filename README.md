@@ -226,6 +226,12 @@ This is the official statement provided by the devs on the Little Orbit discord 
 
 > *Dev Comment: We're making this change so whenever we add new UI Elements we don't have to spend time and resources troubleshooting players with outdated files that they drag and drop even after updating as part of their config causing their games to crash. UI Elements are now stored in a different way which means that they can no longer be outdated or disabled via configs.*
 
+# Custom crosshairs/dots
+
+Since there is no way of customizing your crosshair or putting a persistent dot in the center of your screen at all times on APB, the only way to do that is through third party software. The update which added a dot which appears while sprinting doesn't really help because it disappears the moment you stop sprinting and the full crosshair appears which defeats the whole purpose of the center dot. The issue is that LO/GFAC is picky about what you're allowed to use but the one software that's been allowed for a long time now and still is as of writing this is [HudSight](https://hudsight.com/) (or [the Steam version](https://store.steampowered.com/app/1477830/HudSight__crosshair_overlay/)). It will cost you a single time payment of $7 for a lifetime license and it works for most games so its generally well worth it if you like having persistent dots/custom crosshairs across all of your shooter games.
+
+This software simply acts as an overlay over the game itself and does not directly interact with the game's memory, therefore the crosshair will always be completely static. But you can make your own, import it into the software and then use it across any game.
+
 # Black Sky / Time of Day manipulation
 
 The black sky config required the modification of files which are now prohibited from being modified and no other alternative exists for dealing with the bright sky issue. As such the black sky config files have been completely removed from the config. As it stands right now, there is no known legal method of having black sky or a custom time of day in-game. 
