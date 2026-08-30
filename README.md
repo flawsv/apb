@@ -81,6 +81,14 @@ Localization simplifies the overall interface and changes text colors in the HUD
 
 </details>
 
+### Clarifications about the mission stages config
+
+The mission stages config is part of each of the localization presets and is also available as a separate addon (see further down). It replaces the flavor text for each mission in the top right corner of the screen with a list of every type of stage in the current mission, in order. It also includes the time for each stage, the number of points (if no number is given then its a single point), if items are invovled it will have a letter in parentheses: (S), (M), (H) which stand for Small, Medium and Heavy respectively. Additionally, if a certain stage has many objectives but some of them are fake/decoy objectives and only some of them are needed in order to progress the mission, that is displayed too in square brackets such as [E&F].
+
+Stages that have already passed will disappear; only the current and the incoming stages will show up in order to reduce clutter on the screen.
+
+This config is particularly useful for planning ahead, especially if you like to always have the correct equipment (objective tool) for each stage and to just overall have a good idea of what stages to expect during the mission.
+
 ### This localization changes the following /slash commands
 + `/exit` -> `/q`
 + `/abandonmission` -> `/a` (obsolete)
