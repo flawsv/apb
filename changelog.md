@@ -1,3 +1,8 @@
+## 3.0 - 05.09.2026
+- Localization fixes (mission stages). Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
+
+
+
 ## 2.9.9 - 07.08.2026
 - Added a fix to all localization variants for the transparent APB$ and Joker Ticket icons in the inventory UI when using "Transparent UI". This brings those icons back while using that config. This fix only works if you are using any of my localization variants as it is a fix in localization, not within the transparent UI file itself. If you are using transparent UI as well as my localization, this is a recommended update. Credit: [@altshadow69](https://github.com/altshadow69/apb-minimized)
 
