@@ -1,3 +1,10 @@
+## 3.1 - 23.09.2026
+- Fixed new VoIP options text when using the Keybinds config.
+- Updated weapon stats localization. Credit: [writch](https://github.com/writchcraft/apb)
+- Other small localization fixes across all variants.
+
+
+
 ## 3.0 - 05.09.2026
 - Localization fixes (mission stages). Credit: [lazer](https://github.com/lvzxr/apb-cfg-loader)
 
