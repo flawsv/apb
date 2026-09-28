@@ -1,3 +1,8 @@
+## 3.2 - 28.09.2026
+- Fixed weapon and vehicle stats text color in the localization addons.
+
+
+
 ## 3.1 - 23.09.2026
 - Fixed new VoIP options text when using the Keybinds config.
 - Updated weapon stats localization. Credit: [writch](https://github.com/writchcraft/apb)
