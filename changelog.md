@@ -1,3 +1,8 @@
+## 3.3 - 30.09.2026
+- Fixed weapon stats localization addon showing wrong drop off range since the previous release.
+
+
+
 ## 3.2 - 28.09.2026
 - Fixed weapon and vehicle stats text color in the localization addons.
 
