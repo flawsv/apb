@@ -287,7 +287,7 @@ If still none of this works you might have to contact Frosi LO (frosilo) directl
 + [writch](https://github.com/writchcraft/apb) — Updated Weapon & Vehicle stats originally created by mewpri
 + Kyouki — No GC/Stutter Fix, General assistance
 + jmilos — Texture Streaming, Keybinds, New hold crouch method, New black login screen method
-+ [AltShadow](https://github.com/altshadow69/apb-minimized) — Weapon categories with icons, APB$ and JT icons fix for Transparent UI
++ [AltShadow](https://github.com/altshadow69/apb-minimized) — Weapon categories with icons, APB$, JT icons fix for Transparent UI, Equipment icons in mission titles
 + Leefekyn — Localization (killfeed stun icon)
 + Tobii & Dopefish — For placing some of the foundations for modding APB many years ago, before leaving for greener pastures.
 
