@@ -137,7 +137,10 @@ Changes the in-game item description for every weapon and vehicle to show the ex
 </details>
 
 ## Equipment icons in mission names
-Adds icons of all required equipment for the mission for both factions. Comes in three color variants: Colored (Blue for enf equipment & Red for crim equipment), Greyscale (Dark Grey for enf & White for crim), Whiteout (White for all)
+Adds icons of all required equipment for the mission for both factions. Comes in three color variants: <br/>
++ Colored (Blue for enf equipment & Red for crim equipment)
++ Greyscale (Dark Grey for enf & White for crim)
++ Whiteout (White for all)
 
 <details>
   <summary>Click here to preview the equipment icons</summary>
@@ -184,7 +187,7 @@ This does several things all at once (+/- 32GB RAM):
 > **(1)** Using the 'No GC' variant will prevent you from using any customization kiosks in the Social district. Swapping between 'DTS only' and 'DTS + No GC' is the only way to customize your character currently if you wish to keep GC off. You have to restart the game every time you swap them. For those who only wish to uncap their FPS and gain a performance boost, simply use 'DTS only'.
 
 > [!CAUTION]
-> **(2)** Using 'Black Login Screen' will prevent you from creating new characters due to the new login screen config method breaking the character creator screen. The old method is no longer allowed and there is no way to solve this issue while using this method. As such, if you need to make a new character use 'Vanilla Login Screen' to create it and once you're done, you may swap back to 'Black Login Screen'. I apologise for the inconvenience but there is no easier way to do it for now.
+> **(2)** Using 'Black Login Screen' will prevent you from creating new characters due to the new login screen config method breaking the character creator screen. The old method is no longer allowed and there is no way to solve this issue while using this method. As such, if you need to make a new character use 'Vanilla Login Screen' to create it and once you're done, you may swap back to 'Black Login Screen'.
 
 > [!NOTE]
 > **If you wish to undo some of the individual changes I've made, please refer to the [file changes breakdown](https://github.com/flawsv/apb/blob/main/filechangesbreakdown.md#file-changes-breakdown) document and edit the settings to your liking.**
