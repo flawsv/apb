@@ -136,8 +136,15 @@ Changes the in-game item description for every weapon and vehicle to show the ex
 
 </details>
 
-## Equipment+stages in mission names
-Changes mission titles to show the equipment required for the mission as well as the total number of stages and the final stage. Supports both Standard font as well as Engine font.
+## Equipment icons in mission names
+Adds icons of all required equipment for the mission for both factions. Comes in three color variants: Colored (Blue for enf equipment & Red for crim equipment), Greyscale (Dark Grey for enf & White for crim), Whiteout (White for all)
+
+<details>
+  <summary>Click here to preview the equipment icons</summary>
+  
+![icons](https://i.imgur.com/hqwBLWm.png)
+
+</details>
 
 ## Mission stages only (Vanilla localization)
 This is for those who want to keep the game's vanilla localization but want to see the mission stages in the description box which is normally present in any of the full localization variants.
